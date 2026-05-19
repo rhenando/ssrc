@@ -1,0 +1,138 @@
+/*
+Theme Name: SSRC Research
+Author: SSRC
+Description: Custom theme for SSRC – Navy #003366, Teal #008080.
+Version: 2.0
+License: GNU General Public License v2 or later
+Text Domain: ssrc
+*/
+
+/* ── Tailwind base resets (CDN injects these automatically, this is a safety net) ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: clip;
+}
+
+body {
+  font-family: 'DM Sans', Arial, sans-serif;
+  color: #3d4f63;
+  background: #ffffff;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
+}
+
+/* ── Page wrappers — never break sticky with overflow:hidden ── */
+#page, #content { overflow: visible; }
+
+/* ── Headings ── */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', Georgia, serif;
+  color: #003366;
+  line-height: 1.2;
+  text-wrap: balance;
+}
+
+p { line-height: 1.75; }
+a { color: #008080; text-decoration: none; transition: color .2s; }
+a:hover { color: #009999; }
+img { display: block; max-width: 100%; height: auto; }
+ul { list-style: none; margin: 0; padding: 0; }
+
+/* ── Skip link ── */
+.skip-link {
+  position: absolute; top: -999px; left: 0;
+  background: #003366; color: #fff;
+  padding: 8px 16px; z-index: 9999; font-size: .875rem;
+}
+.skip-link:focus { top: 0; }
+.screen-reader-text {
+  clip: rect(1px,1px,1px,1px);
+  position: absolute; height: 1px; width: 1px; overflow: hidden;
+}
+
+/* ── WP nav bullet strip (WP injects ul>li regardless of Tailwind) ── */
+.primary-nav, .primary-nav ul, .primary-nav ol {
+  list-style: none !important;
+  margin: 0; padding: 0;
+}
+.primary-nav li { list-style: none !important; display: flex; align-items: center; }
+.primary-nav li::before, .primary-nav li::marker { display: none !important; content: none !important; }
+
+/* ── Fade-up reveal ── */
+.fade-up { opacity: 0; transform: translateY(28px); transition: opacity .65s ease, transform .65s ease; }
+.fade-up.visible { opacity: 1; transform: none; }
+
+/* ── Bar chart animation (hero card) ── */
+@keyframes growBar {
+  from { transform: scaleY(0); opacity: 0; }
+  to   { transform: scaleY(1); opacity: 1; }
+}
+.bar-b {
+  width: 100%; border-radius: 4px 4px 0 0;
+  animation: growBar .7s cubic-bezier(.34,1.4,.64,1) both;
+  transform-origin: bottom;
+}
+.bar-c:nth-child(1) .bar-b { animation-delay:.1s }
+.bar-c:nth-child(2) .bar-b { animation-delay:.2s }
+.bar-c:nth-child(3) .bar-b { animation-delay:.3s }
+.bar-c:nth-child(4) .bar-b { animation-delay:.4s }
+.bar-c:nth-child(5) .bar-b { animation-delay:.5s }
+.bar-c:nth-child(6) .bar-b { animation-delay:.6s }
+
+/* ── Mobile nav slide-down ── */
+@keyframes navSlideDown {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: none; }
+}
+.primary-nav.open { animation: navSlideDown .2s ease both; }
+
+/* ── Accent underline (hero heading) ── */
+.accent {
+  color: #008080;
+  position: relative;
+}
+.accent::after {
+  content: '';
+  position: absolute; left: 0; bottom: -3px;
+  width: 100%; height: 3px;
+  background: linear-gradient(90deg, #008080, transparent);
+  border-radius: 2px;
+}
+
+/* ── Section decorative rule ── */
+.sec-rule {
+  width: 50px; height: 4px;
+  background: linear-gradient(90deg, #008080, #003366);
+  border-radius: 2px;
+  margin: 0 auto;
+}
+
+/* ── Card top-border accent (hover reveal) ── */
+.card-accent::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; height: 4px;
+  background: linear-gradient(90deg, #003366, #008080);
+  transform: scaleX(0); transition: transform .3s; transform-origin: left;
+  border-radius: 4px 4px 0 0;
+}
+.card-accent:hover::before { transform: scaleX(1); }
+
+/* ── Left-border accent (wwd cards) ── */
+.card-left-accent::before {
+  content: '';
+  position: absolute; top: 0; left: 0; bottom: 0; width: 4px;
+  background: linear-gradient(180deg, #008080, #003366);
+  border-radius: 4px 0 0 4px;
+}
+
+/* ── Top-border accent (mv cards, always visible) ── */
+.card-top-accent::after {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; height: 4px;
+  background: linear-gradient(90deg, #008080, #003366);
+}

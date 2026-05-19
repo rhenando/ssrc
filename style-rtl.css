@@ -1,0 +1,35 @@
+/*
+RTL Overrides — SSRC Research
+Targets html[dir="rtl"] so every override is scoped.
+*/
+
+/* ── Font swap ── */
+html[dir="rtl"] body,
+html[dir="rtl"] h1, html[dir="rtl"] h2, html[dir="rtl"] h3,
+html[dir="rtl"] h4, html[dir="rtl"] h5, html[dir="rtl"] h6 {
+  font-family: 'Cairo', Arial, sans-serif;
+}
+
+/* ── Flip all arrow icons ── */
+html[dir="rtl"] .arrow-flip {
+  transform: scaleX(-1);
+}
+
+/* ── Accent underline — right-aligned ── */
+html[dir="rtl"] .accent::after {
+  left: auto;
+  right: 0;
+  background: linear-gradient(270deg, #008080, transparent);
+}
+
+/* ── Card top accent (hover reveal) — flip origin ── */
+html[dir="rtl"] .card-accent::before {
+  transform-origin: right;
+}
+
+/* ── Left-border accent → right-border ── */
+html[dir="rtl"] .card-left-accent::before {
+  left: auto;
+  right: 0;
+  border-radius: 0 4px 4px 0;
+}

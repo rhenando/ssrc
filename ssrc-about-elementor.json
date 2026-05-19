@@ -1,0 +1,740 @@
+{
+  "version": "0.4",
+  "title": "SSRC About Page � Editorial Premium v11",
+  "type": "page",
+  "content": [
+    {
+      "id": "global-css",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "transparent",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "gc-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "gc-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<style>@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600;700;800&display=swap');.s-lift{transition:all .5s cubic-bezier(.22,1,.36,1)}.s-lift:hover{transform:translateY(-8px)}.s-accent-text{background:linear-gradient(90deg,#008080,#66d4c8,#008080,#006666,#008080);background-size:300% auto;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;animation:accentShine 6s linear infinite}@keyframes accentShine{0%{background-position:-300% center}100%{background-position:300% center}}.s-img-rv{overflow:hidden}.s-img-rv img{transition:transform .8s cubic-bezier(.22,1,.36,1),filter .8s ease}.s-img-rv:hover img{transform:scale(1.06);filter:brightness(1.05)}.s-glow{box-shadow:0 1px 0 0 rgba(0,128,128,.15),0 4px 20px rgba(0,0,0,.04);transition:box-shadow .5s ease}.s-glow:hover{box-shadow:0 2px 0 0 rgba(0,128,128,.3),0 12px 40px rgba(0,0,0,.08)}.s-team-card{transition:all .5s cubic-bezier(.22,1,.36,1)}.s-team-card:hover{transform:translateY(-6px);box-shadow:0 16px 48px rgba(0,51,102,.1),0 6px 20px rgba(0,0,0,.06)}.s-avatar-ring{transition:all .4s ease}.s-team-card:hover .s-avatar-ring{box-shadow:0 0 0 4px rgba(0,128,128,.15),0 8px 24px rgba(0,128,128,.2)}</style>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hero-sec",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#003366",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "24",
+          "right": "16",
+          "bottom": "24",
+          "left": "16",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "32",
+          "right": "24",
+          "bottom": "32",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "hero-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "hero-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<style>@media(max-width:768px){#ab-hero-grid{grid-template-columns:1fr!important;min-height:auto!important}#ab-hero-grid>div:first-child{padding:36px 20px 32px!important}#ab-hero-grid>div:last-child{display:none!important}#ab-hero-grid h1{font-size:34px!important;letter-spacing:0!important}#ab-hero-grid p{font-size:15px!important;max-width:100%!important}}</style><div style='position:relative;font-family:Inter,Playfair Display,sans-serif;overflow:hidden;'><div style='display:grid;grid-template-columns:1fr 1fr;min-height:620px;' id='ab-hero-grid'><div style='display:flex;flex-direction:column;justify-content:center;padding:70px 40px 70px 60px;position:relative;z-index:2;'><div style='display:flex;align-items:center;gap:12px;margin-bottom:32px;'><span style='font-size:11px;font-weight:700;color:#008080;letter-spacing:2px;'>SSRC</span><div style='width:40px;height:1px;background:#008080;'></div></div><h1 style='font-family:Playfair Display,serif;font-size:52px;font-weight:900;color:#fff;line-height:1.15;margin-bottom:24px;letter-spacing:-1px;'>Strategic<br><span class='s-accent-text'>Solutions</span></h1><p style='font-size:17px;color:rgba(255,255,255,.55);line-height:1.9;max-width:440px;margin-bottom:40px;font-weight:300;'>For research and consulting � a Damascus-based firm dedicated to unlocking knowledge, data, and insights that drive progress and informed decision-making.</p><div style='padding:12px 28px;border:1px solid rgba(0,128,128,.4);border-radius:6px;color:#66d4c8;font-size:13px;font-weight:700;transition:all .3s ease;cursor:pointer;display:inline-block;width:fit-content;' onmouseover=\"this.style.background='#008080';this.style.color='#fff'\" onmouseout=\"this.style.background='transparent';this.style.color='#66d4c8'\">Discover More</div></div><div style='position:relative;overflow:hidden;'><img src='https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=900&q=90' style='width:100%;height:100%;object-fit:cover;display:block;'><div style='position:absolute;inset:0;background:linear-gradient(90deg,#003366 0%,transparent 40%);'></div><div style='position:absolute;top:30px;left:30px;bottom:30px;right:30px;border:1px solid rgba(0,128,128,.2);border-radius:8px;pointer-events:none;'></div><div style='position:absolute;bottom:30px;right:30px;background:rgba(0,51,102,.7);backdrop-filter:blur(10px);padding:10px 18px;border-radius:6px;border:1px solid rgba(255,255,255,.06);'><span style='font-size:10px;color:rgba(255,255,255,.4);letter-spacing:1px;'>Damascus, Syria</span></div></div></div><div style='position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(0,128,128,.3),transparent);'></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "desc-sec",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#f8f9fb",
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "80",
+          "bottom": "64",
+          "left": "80",
+          "isLinked": false
+        },
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "24",
+          "right": "16",
+          "bottom": "24",
+          "left": "16",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "32",
+          "right": "24",
+          "bottom": "32",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "desc-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "desc-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<style>@media(max-width:600px){#ab-desc-grid{grid-template-columns:1fr!important}#ab-desc-grid>div:first-child{display:none!important}}</style><div style='display:grid;grid-template-columns:60px 1fr;' id='ab-desc-grid' id='ab-desc-grid' style='display:grid;grid-template-columns:60px 1fr;gap:32px;max-width:880px;margin:0 auto;font-family:Inter,Playfair Display,sans-serif;'><div style='display:flex;flex-direction:column;align-items:center;gap:8px;'><div style='width:1px;flex:1;background:linear-gradient(180deg,#008080,rgba(0,128,128,.1));'></div><div style='width:8px;height:8px;border:2px solid #008080;border-radius:50%;'></div><div style='width:1px;flex:1;background:linear-gradient(180deg,rgba(0,128,128,.1),transparent);'></div></div><div><p style='font-size:16px;color:#6b7a8d;line-height:2;margin-bottom:18px;'>Strategic Solutions for Research and Consulting (SSRC) is a Damascus-based research and consulting firm dedicated to unlocking knowledge, data, and insights that drive progress and informed decision-making. With extensive experience in public opinion research and analysis, SSRC rigorously measures, analyzes, and interprets social, political, and consumer trends across Syria � with nationwide access from Abukamal to Tartus and Aleppo to As-Suwayda.</p><p style='font-size:16px;color:#6b7a8d;line-height:2;margin-bottom:0;'>SSRC's work spans a wide range of sectors vital to national recovery and sustainable growth, including business management, education, tourism, governance, social affairs, and community development.</p></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mv-label-sec",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#f8f9fb",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "64",
+          "bottom": "8",
+          "left": "64",
+          "isLinked": false
+        },
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "24",
+          "right": "16",
+          "bottom": "24",
+          "left": "16",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "32",
+          "right": "24",
+          "bottom": "32",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "mv-lbl-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "mv-lbl-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style='text-align:center;font-family:Inter,Playfair Display,sans-serif;margin-bottom:48px;'><span style='display:inline-block;font-size:11px;font-weight:700;color:#008080;letter-spacing:3px;border:1px solid rgba(0,128,128,.3);padding:6px 20px;border-radius:100px;text-transform:uppercase;'>Mission & Vision</span></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mv-cards-sec",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#f8f9fb",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "64",
+          "bottom": "80",
+          "left": "64",
+          "isLinked": false
+        },
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "gap": "custom",
+        "gap_columns_custom": {
+          "unit": "px",
+          "size": 28
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "24",
+          "right": "16",
+          "bottom": "24",
+          "left": "16",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "32",
+          "right": "24",
+          "bottom": "32",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "mission-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "mission-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div class='s-lift s-glow' style='background:#fff;border-radius:16px;overflow:hidden;font-family:Inter,Playfair Display,sans-serif;border:1px solid rgba(0,128,128,.12);position:relative;'><div class='s-img-rv' style='height:240px;position:relative;'><img src='https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80' style='width:100%;height:100%;object-fit:cover;display:block;'><div style='position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,51,102,.1) 0%,rgba(0,51,102,.8) 100%);'></div><div style='position:absolute;bottom:28px;left:28px;'><div style='font-size:11px;font-weight:700;color:#66d4c8;letter-spacing:2px;margin-bottom:6px;text-transform:uppercase;'>Mission</div><div style='font-family:Playfair Display,serif;font-size:26px;font-weight:900;color:#fff;line-height:1.2;'>Driving Meaningful<br>Change</div></div></div><div style='padding:28px 28px 32px;'><p style='font-size:14.5px;color:#6b7a8d;line-height:1.9;margin:0;'>To generate credible, data-driven insights that empower decision-makers, strengthen governance, and foster sustainable development within Syria and the wider region. SSRC is committed to applying rigorous research methods and international best practices.</p></div><div style='position:absolute;top:0;left:0;width:4px;height:60px;background:linear-gradient(180deg,#008080,transparent);border-radius:0 0 4px 0;'></div></div>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "vision-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "vision-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div class='s-lift s-glow' style='background:#fff;border-radius:16px;overflow:hidden;font-family:Inter,Playfair Display,sans-serif;border:1px solid rgba(0,128,128,.12);position:relative;'><div class='s-img-rv' style='height:240px;position:relative;'><img src='https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80' style='width:100%;height:100%;object-fit:cover;display:block;'><div style='position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,51,102,.1) 0%,rgba(0,51,102,.8) 100%);'></div><div style='position:absolute;bottom:28px;left:28px;'><div style='font-size:11px;font-weight:700;color:#66d4c8;letter-spacing:2px;margin-bottom:6px;text-transform:uppercase;'>Vision</div><div style='font-family:Playfair Display,serif;font-size:26px;font-weight:900;color:#fff;line-height:1.2;'>Leading Regional<br>Research Hub</div></div></div><div style='padding:28px 28px 32px;'><p style='font-size:14.5px;color:#6b7a8d;line-height:1.9;margin:0;'>To be Syria's leading center for research excellence, innovation, and strategic consulting � a trusted partner in rebuilding the nation, unlocking opportunity, and shaping a more informed, resilient, and prosperous future for all Syrians.</p></div><div style='position:absolute;top:0;left:0;width:4px;height:60px;background:linear-gradient(180deg,#008080,transparent);border-radius:0 0 4px 0;'></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "val-hdr-sec",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#003366",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "64",
+          "bottom": "8",
+          "left": "64",
+          "isLinked": false
+        },
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "24",
+          "right": "16",
+          "bottom": "24",
+          "left": "16",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "32",
+          "right": "24",
+          "bottom": "32",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "val-hdr-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "val-hdr-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style='text-align:center;font-family:Inter,Playfair Display,sans-serif;margin-bottom:56px;'><span style='display:inline-block;font-size:11px;font-weight:700;color:#66d4c8;letter-spacing:3px;border:1px solid rgba(102,212,200,.3);padding:6px 20px;border-radius:100px;text-transform:uppercase;'>Our Core Values</span><h2 style='font-family:Playfair Display,serif;font-size:36px;font-weight:900;color:#fff;margin:20px 0 0;line-height:1.3;'>Principles That <span class='s-accent-text'>Guide Us</span></h2></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "val-grid-sec",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#003366",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "64",
+          "bottom": "80",
+          "left": "64",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "24",
+          "right": "16",
+          "bottom": "24",
+          "left": "16",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "32",
+          "right": "24",
+          "bottom": "32",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "val-grid-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "val-grid-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<style>@media(max-width:768px){#ab-val-grid{grid-template-columns:repeat(2,1fr)!important}}@media(max-width:480px){#ab-val-grid{grid-template-columns:1fr!important}}</style><div id='ab-val-grid' style='display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(0,128,128,.08);border:1px solid rgba(0,128,128,.08);border-radius:16px;overflow:hidden;font-family:Inter,Playfair Display,sans-serif;'><div style='background:#003366;padding:36px 28px;' class='s-vc'><div style='font-size:11px;font-weight:800;color:rgba(102,212,200,.25);letter-spacing:3px;margin-bottom:16px;'>01</div><h4 style='font-size:18px;font-weight:700;color:#fff;margin-bottom:10px;'>Integrity</h4><p style='font-size:13px;color:rgba(255,255,255,.45);line-height:1.85;margin:0;'>We uphold the highest ethical standards in every aspect of our work, ensuring transparency, impartiality, and trustworthiness across all outputs.</p></div><div style='background:#003366;padding:36px 28px;' class='s-vc'><div style='font-size:11px;font-weight:800;color:rgba(102,212,200,.25);letter-spacing:3px;margin-bottom:16px;'>02</div><h4 style='font-size:18px;font-weight:700;color:#fff;margin-bottom:10px;'>Excellence</h4><p style='font-size:13px;color:rgba(255,255,255,.45);line-height:1.85;margin:0;'>We deliver high-quality, evidence-based results that meet international standards and consistently exceed client expectations.</p></div><div style='background:#003366;padding:36px 28px;' class='s-vc'><div style='font-size:11px;font-weight:800;color:rgba(102,212,200,.25);letter-spacing:3px;margin-bottom:16px;'>03</div><h4 style='font-size:18px;font-weight:700;color:#fff;margin-bottom:10px;'>Innovation</h4><p style='font-size:13px;color:rgba(255,255,255,.45);line-height:1.85;margin:0;'>We embrace creativity and forward thinking, constantly evolving our methodologies to stay at the forefront of research and consulting.</p></div><div style='background:#003366;padding:36px 28px;' class='s-vc'><div style='font-size:11px;font-weight:800;color:rgba(102,212,200,.25);letter-spacing:3px;margin-bottom:16px;'>04</div><h4 style='font-size:18px;font-weight:700;color:#fff;margin-bottom:10px;'>Collaboration</h4><p style='font-size:13px;color:rgba(255,255,255,.45);line-height:1.85;margin:0;'>We believe meaningful impact is achieved through partnership, working closely with clients, communities, and all stakeholders.</p></div><div style='background:#003366;padding:36px 28px;' class='s-vc'><div style='font-size:11px;font-weight:800;color:rgba(102,212,200,.25);letter-spacing:3px;margin-bottom:16px;'>05</div><h4 style='font-size:18px;font-weight:700;color:#fff;margin-bottom:10px;'>Accountability</h4><p style='font-size:13px;color:rgba(255,255,255,.45);line-height:1.85;margin:0;'>We take responsibility for the accuracy, reliability, and impact of our work, maintaining professionalism in every project.</p></div><div style='background:#003366;padding:36px 28px;' class='s-vc'><div style='font-size:11px;font-weight:800;color:rgba(102,212,200,.25);letter-spacing:3px;margin-bottom:16px;'>06</div><h4 style='font-size:18px;font-weight:700;color:#fff;margin-bottom:10px;'>Empowerment</h4><p style='font-size:13px;color:rgba(255,255,255,.45);line-height:1.85;margin:0;'>We build capacity, share knowledge, and enable others to make informed, data-driven decisions that contribute to positive change.</p></div></div><style>.s-vc{transition:background .4s ease;cursor:default}.s-vc:hover{background:#003d5c}</style>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wwd-hdr-sec",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "64",
+          "bottom": "8",
+          "left": "64",
+          "isLinked": false
+        },
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "24",
+          "right": "16",
+          "bottom": "24",
+          "left": "16",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "32",
+          "right": "24",
+          "bottom": "32",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "wwd-hdr-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wwd-hdr-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style='text-align:center;font-family:Inter,Playfair Display,sans-serif;margin-bottom:56px;'><span style='display:inline-block;font-size:11px;font-weight:700;color:#008080;letter-spacing:3px;border:1px solid rgba(0,128,128,.25);padding:6px 20px;border-radius:100px;text-transform:uppercase;'>What We Do</span><h2 style='font-family:Playfair Display,serif;font-size:36px;font-weight:900;color:#003366;margin:20px 0 0;line-height:1.3;'>Our Services <span style='color:#008080;'>& Expertise</span></h2></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wwd-grid-sec",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "64",
+          "bottom": "80",
+          "left": "64",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "24",
+          "right": "16",
+          "bottom": "24",
+          "left": "16",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "32",
+          "right": "24",
+          "bottom": "32",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "wwd-grid-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "wwd-grid-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<style>@media(max-width:900px){#ab-wwd-grid{grid-template-columns:repeat(2,1fr)!important}}@media(max-width:480px){#ab-wwd-grid{grid-template-columns:1fr!important}}</style><div id='ab-wwd-grid' style='display:grid;grid-template-columns:repeat(4,1fr);gap:20px;font-family:Inter,Playfair Display,sans-serif;'><div class='s-lift s-glow' style='background:#f8f9fb;border-radius:14px;padding:32px 24px;border:1px solid #e4e8ef;text-align:center;'><div style='width:56px;height:56px;border-radius:14px;background:linear-gradient(135deg,#008080,#006666);display:flex;align-items:center;justify-content:center;margin:0 auto 20px;box-shadow:0 8px 24px rgba(0,128,128,.2);'><svg width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='#fff' stroke-width='1.5'><circle cx='11' cy='11' r='8'></circle><path d='m21 21-4.35-4.35'></path></svg></div><h4 style='font-size:16px;font-weight:700;color:#003366;margin-bottom:10px;'>Research & Data Collection</h4><p style='font-size:13px;color:#6b7a8d;line-height:1.8;margin:0;'>Field and remote surveys, focus groups, and in-depth interviews using advanced data science methodologies.</p></div><div class='s-lift s-glow' style='background:#f8f9fb;border-radius:14px;padding:32px 24px;border:1px solid #e4e8ef;text-align:center;'><div style='width:56px;height:56px;border-radius:14px;background:linear-gradient(135deg,#003366,#004d80);display:flex;align-items:center;justify-content:center;margin:0 auto 20px;box-shadow:0 8px 24px rgba(0,51,102,.2);'><svg width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='#fff' stroke-width='1.5'><path d='M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'></path></svg></div><h4 style='font-size:16px;font-weight:700;color:#003366;margin-bottom:10px;'>Consulting Services</h4><p style='font-size:13px;color:#6b7a8d;line-height:1.8;margin:0;'>Evidence-based guidance for policy formulation, organizational development, and strategic decision-making.</p></div><div class='s-lift s-glow' style='background:#f8f9fb;border-radius:14px;padding:32px 24px;border:1px solid #e4e8ef;text-align:center;'><div style='width:56px;height:56px;border-radius:14px;background:linear-gradient(135deg,#008080,#006666);display:flex;align-items:center;justify-content:center;margin:0 auto 20px;box-shadow:0 8px 24px rgba(0,128,128,.2);'><svg width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='#fff' stroke-width='1.5'><line x1='18' y1='20' x2='18' y2='10'></line><line x1='12' y1='20' x2='12' y2='4'></line><line x1='6' y1='20' x2='6' y2='14'></line></svg></div><h4 style='font-size:16px;font-weight:700;color:#003366;margin-bottom:10px;'>Public Opinion & Market Studies</h4><p style='font-size:13px;color:#6b7a8d;line-height:1.8;margin:0;'>Measuring and analyzing social, political, and consumer trends to support informed strategies.</p></div><div class='s-lift s-glow' style='background:#f8f9fb;border-radius:14px;padding:32px 24px;border:1px solid #e4e8ef;text-align:center;'><div style='width:56px;height:56px;border-radius:14px;background:linear-gradient(135deg,#003366,#004d80);display:flex;align-items:center;justify-content:center;margin:0 auto 20px;box-shadow:0 8px 24px rgba(0,51,102,.2);'><svg width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='#fff' stroke-width='1.5'><path d='M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2'></path><circle cx='9' cy='7' r='4'></circle></svg></div><h4 style='font-size:16px;font-weight:700;color:#003366;margin-bottom:10px;'>Capacity Building & Training</h4><p style='font-size:13px;color:#6b7a8d;line-height:1.8;margin:0;'>Tailored training programs for researchers, analysts, and field teams to enhance professional standards.</p></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "team-hdr-sec",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#f8f9fb",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "64",
+          "bottom": "8",
+          "left": "64",
+          "isLinked": false
+        },
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "24",
+          "right": "16",
+          "bottom": "24",
+          "left": "16",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "32",
+          "right": "24",
+          "bottom": "32",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "team-hdr-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "team-hdr-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style='text-align:center;font-family:Inter,Playfair Display,sans-serif;margin-bottom:56px;'><span style='display:inline-block;font-size:11px;font-weight:700;color:#008080;letter-spacing:3px;border:1px solid rgba(0,128,128,.25);padding:6px 20px;border-radius:100px;text-transform:uppercase;'>Our Team</span><h2 style='font-family:Playfair Display,serif;font-size:36px;font-weight:900;color:#003366;margin:20px 0 0;line-height:1.3;'>The Minds Behind <span style='color:#008080;'>the Vision</span></h2></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "team-row1-sec",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#f8f9fb",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "64",
+          "bottom": "24",
+          "left": "64",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "24",
+          "right": "16",
+          "bottom": "24",
+          "left": "16",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "32",
+          "right": "24",
+          "bottom": "32",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "team-row1-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "team-row1-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<style>@media(max-width:768px){#ab-team1-grid{grid-template-columns:repeat(2,1fr)!important}}@media(max-width:480px){#ab-team1-grid{grid-template-columns:1fr!important}}</style><div id='ab-team1-grid' style='display:grid;grid-template-columns:repeat(3,1fr);gap:24px;font-family:Inter,Playfair Display,sans-serif;'><div class='s-team-card' style='background:#fff;border-radius:16px;overflow:visible;border:1px solid #e4e8ef;position:relative;padding:32px 24px 28px;text-align:center;'><div style='position:relative;width:100px;height:100px;margin:0 auto 20px;'><div class='s-avatar-ring' style='width:100px;height:100px;border-radius:50%;overflow:hidden;border:3px solid #e8f4f4;box-shadow:0 4px 16px rgba(0,128,128,.12);'><img src='/wp-content/themes/ssrc/images/durry1.png' style='width:100%;height:100%;object-fit:cover;object-position:center 20%;display:block;'></div><div style='position:absolute;bottom:-3px;left:50%;transform:translateX(-50%);width:28px;height:3px;background:linear-gradient(90deg,#008080,#66d4c8);border-radius:3px;'></div></div><div style='font-family:Playfair Display,serif;font-size:18px;font-weight:800;color:#003366;margin-bottom:4px;'>Durry Atassi</div><div style='font-size:11px;font-weight:700;color:#008080;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:16px;'>Senior Consultant</div><div style='width:24px;height:1px;background:#e4e8ef;margin:0 auto 16px;border-radius:1px;'></div><p style='font-size:13px;color:#6b7a8d;line-height:1.85;margin:0;text-align:left;'>A career engineer and senior consultant with over 30 years of experience dedicated to high-quality service delivery and professional integrity. Leverages strategic thinking and analytical skills to impact businesses and individuals across the USA and the MENA region.</p></div><div class='s-team-card' style='background:#fff;border-radius:16px;overflow:visible;border:1px solid #e4e8ef;position:relative;padding:32px 24px 28px;text-align:center;'><div style='position:relative;width:100px;height:100px;margin:0 auto 20px;'><div class='s-avatar-ring' style='width:100px;height:100px;border-radius:50%;overflow:hidden;border:3px solid #e0eaf5;box-shadow:0 4px 16px rgba(0,51,102,.12);'><img src='/wp-content/themes/ssrc/images/darine.png' style='width:100%;height:100%;object-fit:cover;object-position:center 20%;display:block;'></div><div style='position:absolute;bottom:-3px;left:50%;transform:translateX(-50%);width:28px;height:3px;background:linear-gradient(90deg,#003366,#004d80);border-radius:3px;'></div></div><div style='font-family:Playfair Display,serif;font-size:18px;font-weight:800;color:#003366;margin-bottom:4px;'>Darine Atassi</div><div style='font-size:11px;font-weight:700;color:#008080;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:16px;'>International Development</div><div style='width:24px;height:1px;background:#e4e8ef;margin:0 auto 16px;border-radius:1px;'></div><p style='font-size:13px;color:#6b7a8d;line-height:1.85;margin:0;text-align:left;'>Extensive expertise in international development, governance, and civil society engagement. Successfully managed complex programs funded by international donors, designing projects that strengthen social cohesion in conflict-affected regions.</p></div><div class='s-team-card' style='background:#fff;border-radius:16px;overflow:visible;border:1px solid #e4e8ef;position:relative;padding:32px 24px 28px;text-align:center;'><div style='position:relative;width:100px;height:100px;margin:0 auto 20px;'><div class='s-avatar-ring' style='width:100px;height:100px;border-radius:50%;overflow:hidden;border:3px solid #e8f4f4;box-shadow:0 4px 16px rgba(0,128,128,.12);'><img src='/wp-content/themes/ssrc/images/dima1.png' style='width:100%;height:100%;object-fit:cover;object-position:center 20%;display:block;'></div><div style='position:absolute;bottom:-3px;left:50%;transform:translateX(-50%);width:28px;height:3px;background:linear-gradient(90deg,#008080,#66d4c8);border-radius:3px;'></div></div><div style='font-family:Playfair Display,serif;font-size:18px;font-weight:800;color:#003366;margin-bottom:4px;'>Dima Ali</div><div style='font-size:11px;font-weight:700;color:#008080;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:16px;'>Project Manager & Researcher</div><div style='width:24px;height:1px;background:#e4e8ef;margin:0 auto 16px;border-radius:1px;'></div><p style='font-size:13px;color:#6b7a8d;line-height:1.85;margin:0;text-align:left;'>Over nine years of specialized experience in project management and rigorous research within the Syrian civil society sector. A collaborator with the Carnegie Middle East Center and the Syrian Creative Memory Foundation.</p></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "team-row2-sec",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#f8f9fb",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "64",
+          "bottom": "48",
+          "left": "64",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "24",
+          "right": "16",
+          "bottom": "24",
+          "left": "16",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "32",
+          "right": "24",
+          "bottom": "32",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "team-row2-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "team-row2-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<style>@media(max-width:768px){#ab-team2-grid{grid-template-columns:repeat(2,1fr)!important}}@media(max-width:480px){#ab-team2-grid{grid-template-columns:1fr!important}}</style><div id='ab-team2-grid' style='display:grid;grid-template-columns:repeat(3,1fr);gap:24px;font-family:Inter,Playfair Display,sans-serif;'><div class='s-team-card' style='background:#fff;border-radius:16px;overflow:visible;border:1px solid #e4e8ef;position:relative;padding:32px 24px 28px;text-align:center;'><div style='position:relative;width:100px;height:100px;margin:0 auto 20px;'><div class='s-avatar-ring' style='width:100px;height:100px;border-radius:50%;overflow:hidden;border:3px solid #e0eaf5;box-shadow:0 4px 16px rgba(0,51,102,.12);'><img src='/wp-content/themes/ssrc/images/ramia1.png' style='width:100%;height:100%;object-fit:cover;object-position:center 20%;display:block;'></div><div style='position:absolute;bottom:-3px;left:50%;transform:translateX(-50%);width:28px;height:3px;background:linear-gradient(90deg,#003366,#004d80);border-radius:3px;'></div></div><div style='font-family:Playfair Display,serif;font-size:18px;font-weight:800;color:#003366;margin-bottom:4px;'>Ramia Abdulsamad</div><div style='font-size:11px;font-weight:700;color:#008080;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:16px;'>Education & Strategy</div><div style='width:24px;height:1px;background:#e4e8ef;margin:0 auto 16px;border-radius:1px;'></div><p style='font-size:13px;color:#6b7a8d;line-height:1.85;margin:0;text-align:left;'>A strategic leader driving positive transformation and innovation in education and learning. Produces innovative strategies aligned with long-term organizational objectives, making her a valuable contributor to SSRC's mission.</p></div><div class='s-team-card' style='background:#fff;border-radius:16px;overflow:visible;border:1px solid #e4e8ef;position:relative;padding:32px 24px 28px;text-align:center;'><div style='position:relative;width:100px;height:100px;margin:0 auto 20px;'><div class='s-avatar-ring' style='width:100px;height:100px;border-radius:50%;overflow:hidden;border:3px solid #e8f4f4;box-shadow:0 4px 16px rgba(0,128,128,.12);'><img src='/wp-content/themes/ssrc/images/zaine.jpg' style='width:100%;height:100%;object-fit:cover;object-position:center 20%;display:block;'></div><div style='position:absolute;bottom:-3px;left:50%;transform:translateX(-50%);width:28px;height:3px;background:linear-gradient(90deg,#008080,#66d4c8);border-radius:3px;'></div></div><div style='font-family:Playfair Display,serif;font-size:18px;font-weight:800;color:#003366;margin-bottom:4px;'>Zaine Wolfson</div><div style='font-size:11px;font-weight:700;color:#008080;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:16px;'>Operations Lead</div><div style='width:24px;height:1px;background:#e4e8ef;margin:0 auto 16px;border-radius:1px;'></div><p style='font-size:13px;color:#6b7a8d;line-height:1.85;margin:0;text-align:left;'>Deep experience in operational leadership and systems optimization, specializing in the intersection of healthcare delivery and patient advocacy. A proven track record in team building and cross-functional collaboration.</p></div><div class='s-team-card' style='background:#fff;border-radius:16px;overflow:visible;border:1px solid #e4e8ef;position:relative;padding:32px 24px 28px;text-align:center;'><div style='position:relative;width:100px;height:100px;margin:0 auto 20px;'><div class='s-avatar-ring' style='width:100px;height:100px;border-radius:50%;overflow:hidden;border:3px solid #e0eaf5;box-shadow:0 4px 16px rgba(0,51,102,.12);'><img src='/wp-content/themes/ssrc/images/salam.jpg' style='width:100%;height:100%;object-fit:cover;object-position:center 20%;display:block;'></div><div style='position:absolute;bottom:-3px;left:50%;transform:translateX(-50%);width:28px;height:3px;background:linear-gradient(90deg,#003366,#004d80);border-radius:3px;'></div></div><div style='font-family:Playfair Display,serif;font-size:18px;font-weight:800;color:#003366;margin-bottom:4px;'>Salam Alboukai</div><div style='font-size:11px;font-weight:700;color:#008080;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:16px;'>Field Researcher</div><div style='width:24px;height:1px;background:#e4e8ef;margin:0 auto 16px;border-radius:1px;'></div><p style='font-size:13px;color:#6b7a8d;line-height:1.85;margin:0;text-align:left;'>An engineer and field researcher with extensive background in sociological analysis and community development. Led specialized field teams across Homs and Lebanon, currently focusing on strengthening civil society and cultural movement.</p></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "team-foot-sec",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#f8f9fb",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "64",
+          "bottom": "80",
+          "left": "64",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "24",
+          "right": "16",
+          "bottom": "24",
+          "left": "16",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "32",
+          "right": "24",
+          "bottom": "32",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "team-foot-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "team-foot-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style='text-align:center;font-family:Inter,Playfair Display,sans-serif;'><div style='display:inline-block;padding:16px 40px;background:#003366;border-radius:8px;'><span style='font-size:14px;color:rgba(255,255,255,.6);font-weight:300;'>A multidisciplinary team combining </span><span style='font-size:14px;color:#66d4c8;font-weight:700;'>Field Research</span><span style='font-size:14px;color:rgba(255,255,255,.6);font-weight:300;'>, </span><span style='font-size:14px;color:#66d4c8;font-weight:700;'>Policy Expertise</span><span style='font-size:14px;color:rgba(255,255,255,.6);font-weight:300;'>, </span><span style='font-size:14px;color:#66d4c8;font-weight:700;'>Data Science</span><span style='font-size:14px;color:rgba(255,255,255,.6);font-weight:300;'>, and </span><span style='font-size:14px;color:#66d4c8;font-weight:700;'>Operational Leadership</span></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,906 @@
+{
+  "version": "0.4",
+  "title": "Engineering Boards – MTCO Corporate Profile",
+  "type": "page",
+  "content": [
+    {
+      "id": "global-css",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "transparent",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "gc-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "gc-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<style>@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600;700;800&display=swap');.s-lift{transition:all .5s cubic-bezier(.22,1,.36,1)}.s-lift:hover{transform:translateY(-8px)}.s-accent-text{background:linear-gradient(90deg,#1e8a2e,#6dc14a,#1e8a2e,#155c1e,#1e8a2e);background-size:300% auto;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;animation:accentShine 6s linear infinite}@keyframes accentShine{0%{background-position:-300% center}100%{background-position:300% center}}.s-img-rv{overflow:hidden}.s-img-rv img{transition:transform .8s cubic-bezier(.22,1,.36,1),filter .8s ease}.s-img-rv:hover img{transform:scale(1.06);filter:brightness(1.05)}.s-glow{box-shadow:0 1px 0 0 rgba(30,138,46,.15),0 4px 20px rgba(0,0,0,.04);transition:box-shadow .5s ease}.s-glow:hover{box-shadow:0 2px 0 0 rgba(30,138,46,.3),0 12px 40px rgba(0,0,0,.08)}.s-team-card{transition:all .5s cubic-bezier(.22,1,.36,1)}.s-team-card:hover{transform:translateY(-6px);box-shadow:0 16px 48px rgba(0,51,102,.1),0 6px 20px rgba(0,0,0,.06)}.s-avatar-ring{transition:all .4s ease}.s-team-card:hover .s-avatar-ring{box-shadow:0 0 0 4px rgba(30,138,46,.15),0 8px 24px rgba(30,138,46,.2)}</style>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hero-sec",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#003366",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "height": "min-height",
+        "min_height": {
+          "unit": "vh",
+          "size": 100,
+          "sizes": []
+        },
+        "overflow": "hidden"
+      },
+      "elements": [
+        {
+          "id": "hero-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "hero-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<style>#hero-root{position:relative;width:100%;height:100vh;height:100dvh;background:#003366;overflow:hidden;font-family:Inter,Playfair Display,sans-serif;box-sizing:border-box;}#hero-root::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(30,138,46,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(30,138,46,.05) 1px,transparent 1px);background-size:48px 48px;pointer-events:none;z-index:0;}#hero-inner{display:grid;grid-template-columns:55fr 45fr;height:100%;position:relative;z-index:1;}#hero-text{display:flex;flex-direction:column;justify-content:center;padding:60px 40px 60px 64px;}#hero-vis{display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;}#hero-vis::before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#003366 0%,transparent 35%);z-index:1;pointer-events:none;}#hero-svg{width:min(85%,380px);height:auto;position:relative;z-index:0;opacity:.85;}@media(max-width:1024px){#hero-inner{grid-template-columns:60fr 40fr;}#hero-text{padding:50px 32px 50px 48px;}}@media(max-width:768px){#hero-inner{grid-template-columns:1fr;}#hero-vis{display:none!important;}#hero-text{padding:50px 24px;}#hero-text h1{font-size:36px !important;}#hero-text p{font-size:13px !important;}.hero-btns{flex-wrap:wrap;}}</style><div id='hero-root'><div id='hero-inner'><div id='hero-text'><div style='display:flex;align-items:center;gap:12px;margin-bottom:28px;'><span style='font-size:11px;font-weight:700;color:#6dc14a;letter-spacing:2px;text-transform:uppercase;'>Engineering Boards</span><div style='width:40px;height:1px;background:#1e8a2e;'></div></div><div style='display:inline-block;margin-bottom:20px;'><span style='font-size:11px;font-weight:700;color:#6dc14a;letter-spacing:2px;border:1px solid rgba(109,193,74,.3);padding:5px 16px;border-radius:100px;text-transform:uppercase;'>Established 2012 · Al Madinah, KSA</span></div><h1 style='font-family:Playfair Display,serif;font-size:48px;font-weight:900;color:#fff;line-height:1.15;margin-bottom:20px;letter-spacing:-1px;'>Mawared Taybah<br><span class='s-accent-text'>Consultancy Office</span></h1><p style='font-size:17px;color:rgba(255,255,255,.55);line-height:1.9;max-width:440px;margin-bottom:16px;font-weight:300;font-style:italic;'>We add value, one project at a time.</p><p style='font-size:14px;color:rgba(255,255,255,.4);line-height:1.8;max-width:420px;margin-bottom:40px;'>Our exceptional quality of work is the norm — delivering innovative, reliable, and client-focused engineering consultancy solutions across the Middle East and beyond.</p><div class='hero-btns' style='display:flex;gap:16px;flex-wrap:wrap;'><a href='#services' style='padding:12px 28px;background:linear-gradient(135deg,#1e8a2e,#155c1e);border-radius:6px;color:#fff;font-size:13px;font-weight:700;text-decoration:none;display:inline-block;box-shadow:0 4px 16px rgba(30,138,46,.3);'>Explore Services</a><a href='#projects' style='padding:12px 28px;border:1px solid rgba(255,255,255,.2);border-radius:6px;color:rgba(255,255,255,.8);font-size:13px;font-weight:600;text-decoration:none;display:inline-block;'>View Projects</a></div></div><div id='hero-vis'><img src='https://ssrc.online/wp-content/uploads/2026/05/MTCO-Logo-v2.png' alt='MTCO Logo' style='width:min(80%,340px);height:auto;display:block;border-radius:20px;box-shadow:0 24px 80px rgba(0,0,0,.5),0 8px 24px rgba(0,0,0,.3);position:relative;z-index:0;'></div></div><div style='position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(30,138,46,.3),transparent);z-index:2;'></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stats-sec",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#f8f9fb",
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "64",
+          "bottom": "64",
+          "left": "64",
+          "isLinked": false
+        },
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "gap": "custom",
+        "gap_columns_custom": {
+          "unit": "px",
+          "size": 24
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "32",
+          "right": "20",
+          "bottom": "32",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "48",
+          "right": "40",
+          "bottom": "48",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "stats-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "stats-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<style>#eb-s2g{grid-template-columns:repeat(4,1fr)!important}@media(max-width:768px){#eb-s2g{grid-template-columns:repeat(2,1fr)!important}}@media(max-width:480px){#eb-s2g{grid-template-columns:1fr!important}}</style><div id='eb-s2g' style='display:grid;grid-template-columns:repeat(4,1fr);gap:24px;font-family:Inter,Playfair Display,sans-serif;'><div class='s-lift s-glow' style='background:#fff;border-radius:16px;padding:36px 28px;border:1px solid #e4e8ef;text-align:center;position:relative;overflow:hidden;'><div style='position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#1e8a2e,#6dc14a);'></div><div style='font-family:Playfair Display,serif;font-size:52px;font-weight:900;color:#003366;line-height:1;margin-bottom:6px;'>2012</div><div style='font-size:11px;font-weight:700;color:#1e8a2e;letter-spacing:2px;text-transform:uppercase;margin-bottom:12px;'>Established</div><p style='font-size:13px;color:#6b7a8d;line-height:1.75;margin:0;'>Delivering innovative, reliable, and client-focused engineering solutions since 2012.</p></div><div class='s-lift s-glow' style='background:#fff;border-radius:16px;padding:36px 28px;border:1px solid #e4e8ef;text-align:center;position:relative;overflow:hidden;'><div style='position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#003366,#004d80);'></div><div style='font-family:Playfair Display,serif;font-size:52px;font-weight:900;color:#003366;line-height:1;margin-bottom:6px;'>120<span style='color:#1e8a2e;font-size:32px;'>+</span></div><div style='font-size:11px;font-weight:700;color:#1e8a2e;letter-spacing:2px;text-transform:uppercase;margin-bottom:12px;'>Projects Delivered</div><p style='font-size:13px;color:#6b7a8d;line-height:1.75;margin:0;'>Proven expertise and a results-driven approach across every client engagement.</p></div><div class='s-lift s-glow' style='background:#fff;border-radius:16px;padding:36px 28px;border:1px solid #e4e8ef;text-align:center;position:relative;overflow:hidden;'><div style='position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#1e8a2e,#6dc14a);'></div><div style='font-family:Playfair Display,serif;font-size:52px;font-weight:900;color:#003366;line-height:1;margin-bottom:6px;'>65<span style='color:#1e8a2e;font-size:32px;'>+</span></div><div style='font-size:11px;font-weight:700;color:#1e8a2e;letter-spacing:2px;text-transform:uppercase;margin-bottom:12px;'>Staff & Experts</div><p style='font-size:13px;color:#6b7a8d;line-height:1.75;margin:0;'>A team with full in-depth knowledge of Saudi Building codes and authorities' requirements.</p></div><div class='s-lift s-glow' style='background:#fff;border-radius:16px;padding:36px 28px;border:1px solid #e4e8ef;text-align:center;position:relative;overflow:hidden;'><div style='position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#003366,#004d80);'></div><div style='font-family:Playfair Display,serif;font-size:32px;font-weight:900;color:#003366;line-height:1.2;margin-bottom:6px;'>Integrity &amp; Repeat</div><div style='font-size:11px;font-weight:700;color:#1e8a2e;letter-spacing:2px;text-transform:uppercase;margin-bottom:12px;'>Business Model</div><p style='font-size:13px;color:#6b7a8d;line-height:1.75;margin:0;'>High-quality work and on-time delivery are not slogans — they are the only way we do business.</p></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "svc-hdr-sec",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "64",
+          "bottom": "8",
+          "left": "64",
+          "isLinked": false
+        },
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "48",
+          "right": "20",
+          "bottom": "8",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "40",
+          "bottom": "8",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "svc-hdr-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "svc-hdr-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<style>@media(max-width:768px){#eb-s3h h2{font-size:26px!important}#eb-s3h p{font-size:13px!important}}</style><div id='eb-s3h' style='text-align:center;font-family:Inter,Playfair Display,sans-serif;margin-bottom:56px;'><span style='display:inline-block;font-size:11px;font-weight:700;color:#1e8a2e;letter-spacing:3px;border:1px solid rgba(30,138,46,.25);padding:6px 20px;border-radius:100px;text-transform:uppercase;'>What We Do</span><h2 style='font-family:Playfair Display,serif;font-size:36px;font-weight:900;color:#003366;margin:20px 0 12px;line-height:1.3;'>Engineering <span style='color:#1e8a2e;'>& Consultancy Services</span></h2><p style='font-size:15px;color:#6b7a8d;max-width:560px;margin:0 auto;line-height:1.85;'>Delivering technical excellence across five core service areas — from initial design through construction support, environmental management, and logistics.</p></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "svc-overview-sec",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "64",
+          "bottom": "48",
+          "left": "64",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "0",
+          "right": "20",
+          "bottom": "32",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "0",
+          "right": "40",
+          "bottom": "40",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "svc-overview-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "svc-overview-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<style>#eb-s4g{grid-template-columns:repeat(3,1fr)!important}@media(max-width:768px){#eb-s4g{grid-template-columns:repeat(2,1fr)!important}}@media(max-width:540px){#eb-s4g{grid-template-columns:1fr!important}}</style><div id='eb-s4g' style='display:grid;grid-template-columns:repeat(3,1fr);gap:20px;font-family:Inter,Playfair Display,sans-serif;'><div class='s-lift s-glow' style='background:#f8f9fb;border-radius:14px;padding:32px 20px;border:1px solid #e4e8ef;text-align:center;position:relative;overflow:hidden;'><div style='position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#1e8a2e,#6dc14a);'></div><div style='width:60px;height:60px;border-radius:14px;background:linear-gradient(135deg,#1e8a2e,#155c1e);display:flex;align-items:center;justify-content:center;margin:0 auto 18px;box-shadow:0 8px 24px rgba(30,138,46,.2);'><svg width='26' height='26' viewBox='0 0 24 24' fill='none' stroke='#fff' stroke-width='1.5'><path d='M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z'></path><polyline points='14 2 14 8 20 8'></polyline></svg></div><h4 style='font-size:14px;font-weight:700;color:#003366;margin-bottom:10px;line-height:1.35;'>Engineering &amp; Consultancy</h4><p style='font-size:12px;color:#6b7a8d;line-height:1.75;margin:0;'>Focused technical guidance, innovative solutions, and precise support from planning through execution.</p></div><div class='s-lift s-glow' style='background:#f8f9fb;border-radius:14px;padding:32px 20px;border:1px solid #e4e8ef;text-align:center;position:relative;overflow:hidden;'><div style='position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#003366,#004d80);'></div><div style='width:60px;height:60px;border-radius:14px;background:linear-gradient(135deg,#003366,#004d80);display:flex;align-items:center;justify-content:center;margin:0 auto 18px;box-shadow:0 8px 24px rgba(0,51,102,.2);'><svg width='26' height='26' viewBox='0 0 24 24' fill='none' stroke='#fff' stroke-width='1.5'><rect x='3' y='3' width='18' height='18' rx='2' ry='2'></rect><line x1='3' y1='9' x2='21' y2='9'></line><line x1='9' y1='21' x2='9' y2='9'></line></svg></div><h4 style='font-size:14px;font-weight:700;color:#003366;margin-bottom:10px;line-height:1.35;'>Design Management</h4><p style='font-size:12px;color:#6b7a8d;line-height:1.75;margin:0;'>Disciplined design oversight ensuring efficiency, compliance, and consistently high-quality outcomes.</p></div><div class='s-lift s-glow' style='background:#f8f9fb;border-radius:14px;padding:32px 20px;border:1px solid #e4e8ef;text-align:center;position:relative;overflow:hidden;'><div style='position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#1e8a2e,#6dc14a);'></div><div style='width:60px;height:60px;border-radius:14px;background:linear-gradient(135deg,#1e8a2e,#155c1e);display:flex;align-items:center;justify-content:center;margin:0 auto 18px;box-shadow:0 8px 24px rgba(30,138,46,.2);'><svg width='26' height='26' viewBox='0 0 24 24' fill='none' stroke='#fff' stroke-width='1.5'><path d='M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'></path><polyline points='9 22 9 12 15 12 15 22'></polyline></svg></div><h4 style='font-size:14px;font-weight:700;color:#003366;margin-bottom:10px;line-height:1.35;'>Construction Support</h4><p style='font-size:12px;color:#6b7a8d;line-height:1.75;margin:0;'>Effective planning, coordination, and on-site oversight to deliver reliable, on-time results.</p></div><div class='s-lift s-glow' style='background:#f8f9fb;border-radius:14px;padding:32px 20px;border:1px solid #e4e8ef;text-align:center;position:relative;overflow:hidden;'><div style='position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#003366,#004d80);'></div><div style='width:60px;height:60px;border-radius:14px;background:linear-gradient(135deg,#003366,#004d80);display:flex;align-items:center;justify-content:center;margin:0 auto 18px;box-shadow:0 8px 24px rgba(0,51,102,.2);'><svg width='26' height='26' viewBox='0 0 24 24' fill='none' stroke='#fff' stroke-width='1.5'><circle cx='12' cy='12' r='10'></circle><path d='M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z'></path></svg></div><h4 style='font-size:14px;font-weight:700;color:#003366;margin-bottom:10px;line-height:1.35;'>Environment Services</h4><p style='font-size:12px;color:#6b7a8d;line-height:1.75;margin:0;'>Sustainable development, environmental assessments, and community-focused strategies.</p></div><div class='s-lift s-glow' style='background:#f8f9fb;border-radius:14px;padding:32px 20px;border:1px solid #e4e8ef;text-align:center;position:relative;overflow:hidden;'><div style='position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#1e8a2e,#6dc14a);'></div><div style='width:60px;height:60px;border-radius:14px;background:linear-gradient(135deg,#1e8a2e,#155c1e);display:flex;align-items:center;justify-content:center;margin:0 auto 18px;box-shadow:0 8px 24px rgba(30,138,46,.2);'><svg width='26' height='26' viewBox='0 0 24 24' fill='none' stroke='#fff' stroke-width='1.5'><rect x='1' y='3' width='15' height='13'></rect><polygon points='16 8 20 8 23 11 23 16 16 16 16 8'></polygon><circle cx='5.5' cy='18.5' r='2.5'></circle><circle cx='18.5' cy='18.5' r='2.5'></circle></svg></div><h4 style='font-size:14px;font-weight:700;color:#003366;margin-bottom:10px;line-height:1.35;'>Transport &amp; Logistics</h4><p style='font-size:12px;color:#6b7a8d;line-height:1.75;margin:0;'>Optimizing mobility, material flow, and operational planning for safe, cost-effective project delivery.</p></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "svc-detail-sec",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#003366",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "64",
+          "bottom": "80",
+          "left": "64",
+          "isLinked": false
+        },
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "gap": "custom",
+        "gap_columns_custom": {
+          "unit": "px",
+          "size": 28
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "64",
+          "right": "40",
+          "bottom": "64",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "svc-d1-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "svc-d1-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<style>@media(max-width:767px){.eb-svc-card{height:auto!important}}</style><div class='eb-svc-card' style='background:rgba(255,255,255,.04);border-radius:16px;border:1px solid rgba(30,138,46,.2);overflow:hidden;font-family:Inter,Playfair Display,sans-serif;height:100%;'><div style='padding:28px 28px 20px;border-bottom:1px solid rgba(30,138,46,.15);'><div style='width:48px;height:48px;border-radius:12px;background:linear-gradient(135deg,#1e8a2e,#155c1e);display:flex;align-items:center;justify-content:center;margin-bottom:14px;'><svg width='22' height='22' viewBox='0 0 24 24' fill='none' stroke='#fff' stroke-width='1.5'><path d='M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z'></path><polyline points='14 2 14 8 20 8'></polyline></svg></div><h3 style='font-family:Playfair Display,serif;font-size:20px;font-weight:800;color:#fff;margin:0;'>Design Services</h3></div><div style='padding:24px 28px 28px;'><ul style='list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;'><li style='display:flex;align-items:flex-start;gap:10px;'><span style='width:5px;height:5px;border-radius:50%;background:#6dc14a;flex-shrink:0;margin-top:7px;'></span><span style='font-size:13px;color:rgba(255,255,255,.65);line-height:1.6;'>Hydraulic Design &amp; Modeling</span></li><li style='display:flex;align-items:flex-start;gap:10px;'><span style='width:5px;height:5px;border-radius:50%;background:#6dc14a;flex-shrink:0;margin-top:7px;'></span><span style='font-size:13px;color:rgba(255,255,255,.65);line-height:1.6;'>Pipe Stress Analysis</span></li><li style='display:flex;align-items:flex-start;gap:10px;'><span style='width:5px;height:5px;border-radius:50%;background:#6dc14a;flex-shrink:0;margin-top:7px;'></span><span style='font-size:13px;color:rgba(255,255,255,.65);line-height:1.6;'>Pipe Flow Design</span></li><li style='display:flex;align-items:flex-start;gap:10px;'><span style='width:5px;height:5px;border-radius:50%;background:#6dc14a;flex-shrink:0;margin-top:7px;'></span><span style='font-size:13px;color:rgba(255,255,255,.65);line-height:1.6;'>Structural Design &amp; Modeling</span></li><li style='display:flex;align-items:flex-start;gap:10px;'><span style='width:5px;height:5px;border-radius:50%;background:#6dc14a;flex-shrink:0;margin-top:7px;'></span><span style='font-size:13px;color:rgba(255,255,255,.65);line-height:1.6;'>Fire Protection Design (NFPA)</span></li><li style='display:flex;align-items:flex-start;gap:10px;'><span style='width:5px;height:5px;border-radius:50%;background:#6dc14a;flex-shrink:0;margin-top:7px;'></span><span style='font-size:13px;color:rgba(255,255,255,.65);line-height:1.6;'>Telecom Design</span></li><li style='display:flex;align-items:flex-start;gap:10px;'><span style='width:5px;height:5px;border-radius:50%;background:#6dc14a;flex-shrink:0;margin-top:7px;'></span><span style='font-size:13px;color:rgba(255,255,255,.65);line-height:1.6;'>Oil &amp; Gas Engineering</span></li><li style='display:flex;align-items:flex-start;gap:10px;'><span style='width:5px;height:5px;border-radius:50%;background:#6dc14a;flex-shrink:0;margin-top:7px;'></span><span style='font-size:13px;color:rgba(255,255,255,.65);line-height:1.6;'>Instrument / Low Current Systems</span></li><li style='display:flex;align-items:flex-start;gap:10px;'><span style='width:5px;height:5px;border-radius:50%;background:#6dc14a;flex-shrink:0;margin-top:7px;'></span><span style='font-size:13px;color:rgba(255,255,255,.65);line-height:1.6;'>BIM Modeling Capabilities</span></li><li style='display:flex;align-items:flex-start;gap:10px;'><span style='width:5px;height:5px;border-radius:50%;background:#6dc14a;flex-shrink:0;margin-top:7px;'></span><span style='font-size:13px;color:rgba(255,255,255,.65);line-height:1.6;'>Traffic Studies</span></li><li style='display:flex;align-items:flex-start;gap:10px;'><span style='width:5px;height:5px;border-radius:50%;background:#6dc14a;flex-shrink:0;margin-top:7px;'></span><span style='font-size:13px;color:rgba(255,255,255,.65);line-height:1.6;'>Master Planning</span></li></ul></div></div>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "svc-d2-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "svc-d2-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<style>@media(max-width:767px){.eb-svc-card{height:auto!important}}</style><div class='eb-svc-card' style='background:rgba(255,255,255,.04);border-radius:16px;border:1px solid rgba(30,138,46,.2);overflow:hidden;font-family:Inter,Playfair Display,sans-serif;height:100%;'><div style='padding:28px 28px 20px;border-bottom:1px solid rgba(30,138,46,.15);'><div style='width:48px;height:48px;border-radius:12px;background:linear-gradient(135deg,#004d80,#003366);display:flex;align-items:center;justify-content:center;margin-bottom:14px;'><svg width='22' height='22' viewBox='0 0 24 24' fill='none' stroke='#fff' stroke-width='1.5'><path d='M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'></path><polyline points='9 22 9 12 15 12 15 22'></polyline></svg></div><h3 style='font-family:Playfair Display,serif;font-size:20px;font-weight:800;color:#fff;margin:0;'>Construction Services</h3></div><div style='padding:24px 28px 28px;'><ul style='list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;'><li style='display:flex;align-items:flex-start;gap:10px;'><span style='width:5px;height:5px;border-radius:50%;background:#6dc14a;flex-shrink:0;margin-top:7px;'></span><span style='font-size:13px;color:rgba(255,255,255,.65);line-height:1.6;'>Shop Drawings</span></li><li style='display:flex;align-items:flex-start;gap:10px;'><span style='width:5px;height:5px;border-radius:50%;background:#6dc14a;flex-shrink:0;margin-top:7px;'></span><span style='font-size:13px;color:rgba(255,255,255,.65);line-height:1.6;'>Construction Support</span></li><li style='display:flex;align-items:flex-start;gap:10px;'><span style='width:5px;height:5px;border-radius:50%;background:#6dc14a;flex-shrink:0;margin-top:7px;'></span><span style='font-size:13px;color:rgba(255,255,255,.65);line-height:1.6;'>As-Built Preparation</span></li><li style='display:flex;align-items:flex-start;gap:10px;'><span style='width:5px;height:5px;border-radius:50%;background:#6dc14a;flex-shrink:0;margin-top:7px;'></span><span style='font-size:13px;color:rgba(255,255,255,.65);line-height:1.6;'>Preparation of Procedures &amp; Methodologies</span></li><li style='display:flex;align-items:flex-start;gap:10px;'><span style='width:5px;height:5px;border-radius:50%;background:#6dc14a;flex-shrink:0;margin-top:7px;'></span><span style='font-size:13px;color:rgba(255,255,255,.65);line-height:1.6;'>Fabrication Drawings</span></li><li style='display:flex;align-items:flex-start;gap:10px;'><span style='width:5px;height:5px;border-radius:50%;background:#6dc14a;flex-shrink:0;margin-top:7px;'></span><span style='font-size:13px;color:rgba(255,255,255,.65);line-height:1.6;'>Quantity Surveying</span></li><li style='display:flex;align-items:flex-start;gap:10px;'><span style='width:5px;height:5px;border-radius:50%;background:#6dc14a;flex-shrink:0;margin-top:7px;'></span><span style='font-size:13px;color:rgba(255,255,255,.65);line-height:1.6;'>Claims Support &amp; Management</span></li><li style='display:flex;align-items:flex-start;gap:10px;'><span style='width:5px;height:5px;border-radius:50%;background:#6dc14a;flex-shrink:0;margin-top:7px;'></span><span style='font-size:13px;color:rgba(255,255,255,.65);line-height:1.6;'>Field Topographic Survey (3rd Party Affiliate)</span></li></ul></div></div>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "svc-d3-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "svc-d3-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<style>@media(max-width:767px){.eb-svc-card{height:auto!important}}</style><div class='eb-svc-card' style='background:rgba(255,255,255,.04);border-radius:16px;border:1px solid rgba(30,138,46,.2);overflow:hidden;font-family:Inter,Playfair Display,sans-serif;height:100%;'><div style='padding:28px 28px 20px;border-bottom:1px solid rgba(30,138,46,.15);'><div style='width:48px;height:48px;border-radius:12px;background:linear-gradient(135deg,#1e8a2e,#155c1e);display:flex;align-items:center;justify-content:center;margin-bottom:14px;'><svg width='22' height='22' viewBox='0 0 24 24' fill='none' stroke='#fff' stroke-width='1.5'><polygon points='12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2'></polygon></svg></div><h3 style='font-family:Playfair Display,serif;font-size:20px;font-weight:800;color:#fff;margin:0;'>Speciality Services</h3></div><div style='padding:24px 28px 28px;'><ul style='list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;'><li style='display:flex;align-items:flex-start;gap:10px;'><span style='width:5px;height:5px;border-radius:50%;background:#6dc14a;flex-shrink:0;margin-top:7px;'></span><span style='font-size:13px;color:rgba(255,255,255,.65);line-height:1.6;'>Design Verifications</span></li><li style='display:flex;align-items:flex-start;gap:10px;'><span style='width:5px;height:5px;border-radius:50%;background:#6dc14a;flex-shrink:0;margin-top:7px;'></span><span style='font-size:13px;color:rgba(255,255,255,.65);line-height:1.6;'>Alternative Value Engineered Designs</span></li><li style='display:flex;align-items:flex-start;gap:10px;'><span style='width:5px;height:5px;border-radius:50%;background:#6dc14a;flex-shrink:0;margin-top:7px;'></span><span style='font-size:13px;color:rgba(255,255,255,.65);line-height:1.6;'>Logistics, Lifting &amp; Erection Studies</span></li><li style='display:flex;align-items:flex-start;gap:10px;'><span style='width:5px;height:5px;border-radius:50%;background:#6dc14a;flex-shrink:0;margin-top:7px;'></span><span style='font-size:13px;color:rgba(255,255,255,.65);line-height:1.6;'>Crude Oil / Gas and NGL Specialists</span></li><li style='display:flex;align-items:flex-start;gap:10px;'><span style='width:5px;height:5px;border-radius:50%;background:#6dc14a;flex-shrink:0;margin-top:7px;'></span><span style='font-size:13px;color:rgba(255,255,255,.65);line-height:1.6;'>Design Completion</span></li><li style='display:flex;align-items:flex-start;gap:10px;'><span style='width:5px;height:5px;border-radius:50%;background:#6dc14a;flex-shrink:0;margin-top:7px;'></span><span style='font-size:13px;color:rgba(255,255,255,.65);line-height:1.6;'>BIM Clashes Detection</span></li><li style='display:flex;align-items:flex-start;gap:10px;'><span style='width:5px;height:5px;border-radius:50%;background:#6dc14a;flex-shrink:0;margin-top:7px;'></span><span style='font-size:13px;color:rgba(255,255,255,.65);line-height:1.6;'>Site Conditions Assessments</span></li></ul></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mgmt-hdr-sec",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#f8f9fb",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "64",
+          "bottom": "8",
+          "left": "64",
+          "isLinked": false
+        },
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "48",
+          "right": "20",
+          "bottom": "8",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "40",
+          "bottom": "8",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "mgmt-hdr-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "mgmt-hdr-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<style>@media(max-width:768px){#eb-s6h h2{font-size:26px!important}}</style><div id='eb-s6h'><div style='text-align:center;font-family:Inter,Playfair Display,sans-serif;margin-bottom:56px;'><span style='display:inline-block;font-size:11px;font-weight:700;color:#1e8a2e;letter-spacing:3px;border:1px solid rgba(30,138,46,.25);padding:6px 20px;border-radius:100px;text-transform:uppercase;'>Leadership</span><h2 style='font-family:Playfair Display,serif;font-size:36px;font-weight:900;color:#003366;margin:20px 0 0;line-height:1.3;'>Key <span style='color:#1e8a2e;'>Management</span></h2></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mgmt-principal-sec",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#f8f9fb",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "64",
+          "bottom": "28",
+          "left": "64",
+          "isLinked": false
+        },
+        "gap": "custom",
+        "gap_columns_custom": {
+          "unit": "px",
+          "size": 28
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "0",
+          "right": "20",
+          "bottom": "20",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "0",
+          "right": "40",
+          "bottom": "24",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "mgmt-p1-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "mgmt-p1-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<style>@media(max-width:480px){.eb-team-inner{flex-direction:column!important;align-items:center!important;text-align:center!important;padding:24px 16px 20px!important;gap:16px!important}.eb-team-inner .s-avatar-ring{flex-shrink:0;align-self:center}.eb-team-inner>div:last-child{width:100%}.eb-team-inner>div:last-child>div:first-child{font-size:16px!important}}</style><div style=\"display:grid;grid-template-columns:1fr;gap:24px;font-family:Inter,Playfair Display,sans-serif;\"><div class='s-team-card' style='background:#fff;border-radius:16px;overflow:hidden;border:1px solid #e4e8ef;position:relative;font-family:Inter,Playfair Display,sans-serif;'><div style='position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#1e8a2e,#6dc14a);'></div><div class='eb-team-inner' style='display:flex;gap:24px;align-items:flex-start;padding:32px 28px 28px;'><div class='s-avatar-ring' style='width:100px;height:100px;border-radius:50%;overflow:hidden;border:3px solid #e8f4f4;box-shadow:0 4px 16px rgba(30,138,46,.12);flex-shrink:0;background:#e8f4f4;display:flex;align-items:center;justify-content:center;'><img src='https://ssrc.online/wp-content/uploads/2026/04/azmi.png' style='width:100%;height:100%;object-fit:cover;object-position:center 20%;display:block;'></div><div style='flex:1;'><div style='font-family:Playfair Display,serif;font-size:20px;font-weight:800;color:#003366;margin-bottom:4px;'>Azmi A. Abousaleh, P.E.</div><div style='font-size:11px;font-weight:700;color:#1e8a2e;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:6px;'>Principal Engineer</div><div style='font-size:12px;color:#6b7a8d;margin-bottom:14px;'>M.M.E · Licensed P.E., State of Texas</div><div style='width:24px;height:1px;background:#e4e8ef;margin-bottom:14px;'></div><p style='font-size:13px;color:#6b7a8d;line-height:1.85;margin:0;'>As a Professional Engineer in the State of Texas, Azmi has 45 years of experience in the oil &amp; gas field. His competencies include management, supervision, mechanical, piping, pipeline, electrical &amp; instrumentation engineering in the oil and gas and petrochemical industries — including plant piping, cross-country pipelines, mechanical and electrical equipment, pumps, valves, pressure vessels, heat exchangers, tanks, instrumentation, leak detection, metering stations, surge relief and drag reducing agent skids. Design and analysis of pipelines (Crude Oil/Gas/NGL), flowlines, trunklines, bulk plants, water/crude/gas wells, chilled water systems, water treatment facilities, irrigation distribution systems, pump stations, tank farm facilities, loading terminals, and other refinery and petrochemical facilities.</p><p style='font-size:13px;color:#6b7a8d;line-height:1.85;margin:8px 0 0;'>Expertise includes project management, project control, cost control, scheduling, reporting, procurement and supervision of various contracts including EPC (Engineering-Procurement-Construction), LSTK (Lump Sum Turnkey), and LSPB (Lump Sum Procure &amp; Build) projects.</p></div></div></div><div class='s-team-card' style='background:#fff;border-radius:16px;overflow:hidden;border:1px solid #e4e8ef;position:relative;font-family:Inter,Playfair Display,sans-serif;'><div style='position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#003366,#004d80);'></div><div class='eb-team-inner' style='display:flex;gap:24px;align-items:flex-start;padding:32px 28px 28px;'><div class='s-avatar-ring' style='width:100px;height:100px;border-radius:50%;overflow:hidden;border:3px solid #e0eaf5;box-shadow:0 4px 16px rgba(0,51,102,.12);flex-shrink:0;background:#e0eaf5;display:flex;align-items:center;justify-content:center;'><img src='https://ssrc.online/wp-content/uploads/2026/04/hussam.png' style='width:100%;height:100%;object-fit:cover;object-position:center 20%;display:block;'></div><div style='flex:1;'><div style='font-family:Playfair Display,serif;font-size:20px;font-weight:800;color:#003366;margin-bottom:4px;'>Hussam Kassab</div><div style='font-size:11px;font-weight:700;color:#1e8a2e;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:6px;'>Principal Engineer &amp; Manager</div><div style='font-size:12px;color:#6b7a8d;margin-bottom:14px;'>BSc. Civil Engineering · PMP® · NFPA-CFPS</div><div style='width:24px;height:1px;background:#e4e8ef;margin-bottom:14px;'></div><p style='font-size:13px;color:#6b7a8d;line-height:1.85;margin:0;'>Over 35 years of engineering, design, consultancy, engineering support and management experience. Extensive experience in multi-discipline technical environments related to Oil &amp; Gas and Infrastructure — including Petrochemicals, Desalination, Bridges/Causeways, Railways, Terminals, Ports &amp; Berths, and Marine Structures.</p><p style='font-size:13px;color:#6b7a8d;line-height:1.85;margin:8px 0 0;'>Proven experience in design concepts development, master planning, detailed engineering, statutory reviews and approvals, and environmental issues. Main systems/equipment sizing and logistics considerations. Preparation of technical studies, engineering design, concepts development, front-end engineering and RFP preparations for PPP transactions as technical advisor and major EPC projects.</p></div></div></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mgmt-team-sec",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#f8f9fb",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "64",
+          "bottom": "80",
+          "left": "64",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "0",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "0",
+          "right": "40",
+          "bottom": "64",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "mgmt-team-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "mgmt-team-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<style>@media(max-width:480px){.eb-team-inner{flex-direction:column!important;align-items:center!important;text-align:center!important;padding:24px 16px 20px!important;gap:16px!important}.eb-team-inner .s-avatar-ring{flex-shrink:0;align-self:center}.eb-team-inner>div:last-child{width:100%}.eb-team-inner>div:last-child>div:first-child{font-size:16px!important}}</style><div style='display:grid;grid-template-columns:1fr;gap:24px;font-family:Inter,Playfair Display,sans-serif;'><div class='s-team-card' style='background:#fff;border-radius:16px;overflow:hidden;border:1px solid #e4e8ef;position:relative;font-family:Inter,Playfair Display,sans-serif;'><div style='position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#1e8a2e,#6dc14a);'></div><div class='eb-team-inner' style='display:flex;gap:24px;align-items:flex-start;padding:32px 28px 28px;'><div class='s-avatar-ring' style='width:100px;height:100px;border-radius:50%;overflow:hidden;border:3px solid #e8f4f4;box-shadow:0 4px 16px rgba(30,138,46,.12);flex-shrink:0;background:#e8f4f4;display:flex;align-items:center;justify-content:center;'><img src='https://ssrc.online/wp-content/uploads/2026/04/mohamed.png' style='width:100%;height:100%;object-fit:cover;object-position:center 20%;display:block;'></div><div style='flex:1;'><div style='font-family:Playfair Display,serif;font-size:20px;font-weight:800;color:#003366;margin-bottom:4px;'>Mohamed Alomar</div><div style='font-size:11px;font-weight:700;color:#1e8a2e;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:6px;'>Electrical Engineer &amp; Manager</div><div style='font-size:12px;color:#6b7a8d;margin-bottom:14px;'>B.S. Electrical Engineering</div><div style='width:24px;height:1px;background:#e4e8ef;margin-bottom:14px;'></div><p style='font-size:13px;color:#6b7a8d;line-height:1.85;margin:0;'>A highly professional Electrical Engineer and Manager with over 25 years of experience and proven construction management expertise. Mohamed has managed large-scale complex projects from budgeting, scheduling, staffing and quality assurance perspectives.</p><p style='font-size:13px;color:#6b7a8d;line-height:1.85;margin:8px 0 0;'>Expertise covers design of 230kV, 115kV &amp; 69kV switchyard and substations, overhead transmission and 13.8kV distribution lines, electrical power distribution systems, power system protection, technical load evaluation, and equipment sizing. Power System Analysis using ETAP PowerStation Software.</p></div></div></div><div class='s-team-card' style='background:#fff;border-radius:16px;overflow:hidden;border:1px solid #e4e8ef;position:relative;font-family:Inter,Playfair Display,sans-serif;'><div style='position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#003366,#004d80);'></div><div class='eb-team-inner' style='display:flex;gap:24px;align-items:flex-start;padding:32px 28px 28px;'><div class='s-avatar-ring' style='width:100px;height:100px;border-radius:50%;overflow:hidden;border:3px solid #e0eaf5;box-shadow:0 4px 16px rgba(0,51,102,.12);flex-shrink:0;background:#e0eaf5;display:flex;align-items:center;justify-content:center;'><img src='https://ssrc.online/wp-content/uploads/2026/04/samir.png' style='width:100%;height:100%;object-fit:cover;object-position:center 20%;display:block;'></div><div style='flex:1;'><div style='font-family:Playfair Display,serif;font-size:20px;font-weight:800;color:#003366;margin-bottom:4px;'>Samir Rania</div><div style='font-size:11px;font-weight:700;color:#1e8a2e;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:6px;'>Sr. Architectural Manager</div><div style='font-size:12px;color:#6b7a8d;margin-bottom:14px;'>Post Graduate Degree in Architecture, Versailles, France</div><div style='width:24px;height:1px;background:#e4e8ef;margin-bottom:14px;'></div><p style='font-size:13px;color:#6b7a8d;line-height:1.85;margin:0;'>Over 45 years of experience in design and leading/managing multidisciplinary architectural teams across a wide range of master planning and architectural projects. Expertise in enhancing technical aspects for standard and LEED requirements. Planning, programming and design of functional and aesthetic solutions for urban developments and buildings across various occupancies — including Industrial Buildings, Houses, Dwellings, Offices, Hotels, Hospitals, Medium-Rise and High-Rise Buildings.</p><p style='font-size:13px;color:#6b7a8d;line-height:1.85;margin:8px 0 0;'>Samir has been involved in the strategic planning, design and delivery, and stakeholder coordination for many mega projects in Saudi Arabia, Canada, and France. He has worked with international firms including WSP, Khateeb &amp; Alami, and DG Jones.</p></div></div></div><div class='s-team-card' style='background:#fff;border-radius:16px;overflow:hidden;border:1px solid #e4e8ef;position:relative;font-family:Inter,Playfair Display,sans-serif;'><div style='position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#1e8a2e,#6dc14a);'></div><div class='eb-team-inner' style='display:flex;gap:24px;align-items:flex-start;padding:32px 28px 28px;'><div class='s-avatar-ring' style='width:100px;height:100px;border-radius:50%;overflow:hidden;border:3px solid #e8f4f4;box-shadow:0 4px 16px rgba(30,138,46,.12);flex-shrink:0;background:#e8f4f4;display:flex;align-items:center;justify-content:center;'><img src='https://ssrc.online/wp-content/uploads/2026/04/ahmad.png' style='width:100%;height:100%;object-fit:cover;object-position:center 20%;display:block;'></div><div style='flex:1;'><div style='font-family:Playfair Display,serif;font-size:20px;font-weight:800;color:#003366;margin-bottom:4px;'>Ahmad Alkhateeb</div><div style='font-size:11px;font-weight:700;color:#1e8a2e;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:6px;'>BIM Design Manager</div><div style='font-size:12px;color:#6b7a8d;margin-bottom:14px;'>BSc. Interior Architecture, Damascus University</div><div style='width:24px;height:1px;background:#e4e8ef;margin-bottom:14px;'></div><p style='font-size:13px;color:#6b7a8d;line-height:1.85;margin:0;'>Ahmed is the lead manager of the BIM design team with 16 years of experience managing digital 3D BIM design throughout the full project design cycle. He reinforces BIM standards while leading a technical team of experts, and leverages strong communication skills to optimize collaboration between architects, engineers, contractors, and owner representatives.</p><p style='font-size:13px;color:#6b7a8d;line-height:1.85;margin:8px 0 0;'>Ahmed has overseen the production of many successful BIM models delivering high-quality, clash-free results. He is highly versatile in Autodesk Revit and BIM 360, and has conducted training workshops for new users and entry-level BIM modelers.</p></div></div></div><div class='s-team-card' style='background:#fff;border-radius:16px;overflow:hidden;border:1px solid #e4e8ef;position:relative;font-family:Inter,Playfair Display,sans-serif;'><div style='position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#003366,#004d80);'></div><div class='eb-team-inner' style='display:flex;gap:24px;align-items:flex-start;padding:32px 28px 28px;'><div class='s-avatar-ring' style='width:100px;height:100px;border-radius:50%;overflow:hidden;border:3px solid #e0eaf5;box-shadow:0 4px 16px rgba(0,51,102,.12);flex-shrink:0;background:#e0eaf5;display:flex;align-items:center;justify-content:center;'><img src='https://ssrc.online/wp-content/uploads/2026/04/reem.png' style='width:100%;height:100%;object-fit:cover;object-position:center 20%;display:block;'></div><div style='flex:1;'><div style='font-family:Playfair Display,serif;font-size:20px;font-weight:800;color:#003366;margin-bottom:4px;'>Reem Hayder</div><div style='font-size:11px;font-weight:700;color:#1e8a2e;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:6px;'>Process Engineer</div><div style='font-size:12px;color:#6b7a8d;margin-bottom:14px;'>MSc. Chemical Engineering · BSc. Chemical Engineering</div><div style='width:24px;height:1px;background:#e4e8ef;margin-bottom:14px;'></div><p style='font-size:13px;color:#6b7a8d;line-height:1.85;margin:0;'>Experience in preparation of key process deliverables including P&amp;IDs, PFDs and piping main arrangements. Design and engineering of Water Treatment systems, Oil &amp; Gas facilities, and utilities systems. Coordination with Piping/Mechanical, Instrumentation and Electrical design teams.</p><p style='font-size:13px;color:#6b7a8d;line-height:1.85;margin:8px 0 0;'>Knowledge of preparation of project documents, Bills of Quantities (BOQs), and specifications.</p></div></div></div><div class='s-team-card' style='background:#fff;border-radius:16px;overflow:hidden;border:1px solid #e4e8ef;position:relative;font-family:Inter,Playfair Display,sans-serif;'><div style='position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#1e8a2e,#6dc14a);'></div><div class='eb-team-inner' style='display:flex;gap:24px;align-items:flex-start;padding:32px 28px 28px;'><div class='s-avatar-ring' style='width:100px;height:100px;border-radius:50%;overflow:hidden;border:3px solid #e8f4f4;box-shadow:0 4px 16px rgba(30,138,46,.12);flex-shrink:0;background:#e8f4f4;display:flex;align-items:center;justify-content:center;'><img src='https://ssrc.online/wp-content/uploads/2026/04/raghid.png' style='width:100%;height:100%;object-fit:cover;object-position:center 20%;display:block;'></div><div style='flex:1;'><div style='font-family:Playfair Display,serif;font-size:20px;font-weight:800;color:#003366;margin-bottom:4px;'>Raghid Abdelsamad</div><div style='font-size:11px;font-weight:700;color:#1e8a2e;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:6px;'>Principal Engineer – Structural</div><div style='font-size:12px;color:#6b7a8d;margin-bottom:14px;'>BS Civil Engineering</div><div style='width:24px;height:1px;background:#e4e8ef;margin-bottom:14px;'></div><p style='font-size:13px;color:#6b7a8d;line-height:1.85;margin:0;'>Raghid brings 17 years of extensive background in structural design, specializing in steel structures. He thrives on complex and challenging design problems — his strong academic foundation and technical depth have made him the go-to engineer for the most demanding structural challenges.</p><p style='font-size:13px;color:#6b7a8d;line-height:1.85;margin:8px 0 0;'>Raghid commands a full suite of structural software including Autodesk Revit, SkyCiv, ETABS/SAP2000, and Ansys for simulation and modeling work.</p></div></div></div><div class='s-team-card' style='background:#fff;border-radius:16px;overflow:hidden;border:1px solid #e4e8ef;position:relative;font-family:Inter,Playfair Display,sans-serif;'><div style='position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#003366,#004d80);'></div><div class='eb-team-inner' style='display:flex;gap:24px;align-items:flex-start;padding:32px 28px 28px;'><div class='s-avatar-ring' style='width:100px;height:100px;border-radius:50%;overflow:hidden;border:3px solid #e0eaf5;box-shadow:0 4px 16px rgba(0,51,102,.12);flex-shrink:0;background:#e0eaf5;display:flex;align-items:center;justify-content:center;'><img src='https://ssrc.online/wp-content/uploads/2026/04/jose.png' style='width:100%;height:100%;object-fit:cover;object-position:center 20%;display:block;'></div><div style='flex:1;'><div style='font-family:Playfair Display,serif;font-size:20px;font-weight:800;color:#003366;margin-bottom:4px;'>Jose Togado</div><div style='font-size:11px;font-weight:700;color:#1e8a2e;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:6px;'>Sr. Mechanical Engineer</div><div style='font-size:12px;color:#6b7a8d;margin-bottom:14px;'>BSc. Mechanical Engineering – Electronics Major</div><div style='width:24px;height:1px;background:#e4e8ef;margin-bottom:14px;'></div><p style='font-size:13px;color:#6b7a8d;line-height:1.85;margin:0;'>Over 25 years of combined experience in design, engineering and construction — covering management, execution, quality assurance, design familiarization and related engineering standards for major buildings, facilities and plants. Expertise includes Utilities Systems (HVAC, Fire Protection, Water Systems).</p><p style='font-size:13px;color:#6b7a8d;line-height:1.85;margin:8px 0 0;'>Extensive experience in the operation and maintenance of Steam Generators with their auxiliaries and other industrial equipment and machinery for a sugar manufacturing plant, as well as District Cooling Facilities.</p></div></div></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proj-hdr-sec",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#003366",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        }
+      },
+      "elements": [
+        {
+          "id": "proj-hdr-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "proj-hdr-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proj-grid-sec",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "gap": "custom",
+        "gap_columns_custom": {
+          "unit": "px",
+          "size": 24
+        },
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "height": "min-height",
+        "min_height": {
+          "unit": "vh",
+          "size": 100,
+          "sizes": []
+        },
+        "overflow": "hidden"
+      },
+      "elements": [
+        {
+          "id": "proj-grid-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "proj-grid-w",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<style>#pg-root{display:flex;flex-direction:column;height:100vh;height:100dvh;overflow:hidden;width:100%;background:#fff;position:relative;}#pg-scroll{flex:1;min-height:0;overflow-y:hidden;overflow-x:hidden;scroll-snap-type:y mandatory;scrollbar-width:none;}#pg-scroll::-webkit-scrollbar{display:none;}.pgs{height:100%;display:flex;flex-direction:row;scroll-snap-align:start;scroll-snap-stop:always;background:#fff;border-bottom:1px solid #e8ebf0;overflow:hidden;}.pgs.pg-even{flex-direction:row-reverse;}.pgs-ar{height:100%;display:flex;flex-direction:row;scroll-snap-align:start;scroll-snap-stop:always;background:#fff;border-bottom:1px solid #e8ebf0;overflow:hidden;}.pgs-ar.pg-even{flex-direction:row-reverse;}.pg-img-side{flex:0 0 50%;position:relative;overflow:hidden;background:linear-gradient(135deg,#e6f3f3 0%,#f0f2f5 100%);}.pg-img-row{display:flex;flex-direction:column;width:100%;height:100%;gap:3px;}.pg-img-row img{flex:1;min-height:0;width:100%;object-fit:cover;display:block;will-change:transform;filter:brightness(.88) contrast(1.08) saturate(.85);}.pg-img-row:not(.pg-img-row--single){gap:8px;}.pg-img-row--single{justify-content:center;}.pg-img-row--single img{flex:0 0 200px;height:200px;min-height:0;}.pg-text-side{flex:1;display:flex;flex-direction:column;justify-content:center;padding:60px 72px;position:relative;}.pg-text-ar{text-align:right;}.pg-accent-bar{position:absolute;top:10%;bottom:10%;width:2px;background:#e0e4ea;}.pgs:not(.pg-even) .pg-text-side .pg-accent-bar{left:0;}.pgs.pg-even .pg-text-side .pg-accent-bar{right:0;}.pgs-ar:not(.pg-even) .pg-text-side .pg-accent-bar{right:0;}.pgs-ar.pg-even .pg-text-side .pg-accent-bar{left:0;}.pg-cat{font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;font-family:Inter,sans-serif;margin-bottom:16px;}.pg-title{font-family:'Playfair Display',serif;font-size:32px;font-weight:900;color:#003366;line-height:1.2;margin:0 0 12px;}.pg-loc{font-size:11px;color:#6b7a8d;margin-bottom:18px;display:flex;align-items:center;gap:6px;font-family:Inter,sans-serif;}.pg-loc-ar{justify-content:flex-end;}.pg-rule{width:32px;height:2px;border-radius:2px;margin-bottom:18px;}.pg-rule-ar{margin-right:0;margin-left:auto;}.pg-desc{font-size:13.5px;color:#3d4f63;line-height:1.9;max-width:400px;font-family:Inter,sans-serif;}.pg-text-ar .pg-desc{margin-right:0;margin-left:auto;}.pg-num{font-size:10.5px;color:rgba(0,51,102,.18);letter-spacing:2px;margin-top:24px;font-family:Inter,sans-serif;}@media(max-width:1024px){.pg-text-side{padding:44px 48px;}.pg-title{font-size:26px;}.pg-desc{font-size:13px;}}@media(max-width:768px){.pgs,.pgs.pg-even,.pgs-ar,.pgs-ar.pg-even{flex-direction:column;}.pg-img-side{flex:0 0 42%;}.pg-text-side{flex:1;padding:24px 20px;}.pg-title{font-size:20px;}.pg-desc{font-size:12px;}.pg-accent-bar{display:none;}}.pg-caret{position:absolute;top:50%;transform:translateY(-50%);z-index:200;width:48px;height:48px;border-radius:50%;border:1px solid rgba(0,51,102,.15);background:rgba(255,255,255,.95);display:flex;align-items:center;justify-content:center;cursor:pointer;opacity:0;transition:opacity .3s,background .2s,transform .2s;color:#003366;pointer-events:none;box-shadow:0 2px 16px rgba(0,51,102,.12);}.pg-caret.visible{opacity:1;pointer-events:all;}.pg-caret.pg-hide{opacity:0!important;pointer-events:none!important;}.pg-caret:hover{background:#003366;color:#fff;border-color:transparent;transform:translateY(-50%) scale(1.08);}#pg-prev{left:16px;}#pg-next{right:16px;}@media(max-width:768px){#pg-hdr{padding:18px 20px 14px !important;}#pg-hdr h2{font-size:22px !important;}#pg-prev{left:6px;}#pg-next{right:6px;}}</style><div id='pg-root'><div id='pg-hdr' style='text-align:center;font-family:Inter,sans-serif;padding:32px 64px 24px;flex-shrink:0;background:#fff;border-bottom:1px solid #e8ebf0;'><span style='display:inline-block;font-size:10px;font-weight:700;color:#1e8a2e;letter-spacing:3px;border:1px solid rgba(30,138,46,.2);padding:5px 18px;border-radius:100px;text-transform:uppercase;'>Portfolio</span><h2 style='font-family:Playfair Display,serif;font-size:34px;font-weight:900;color:#003366;margin:14px 0 0;line-height:1.3;'>Projects <span style=\"color:#1e8a2e;\">Experience</span></h2></div><div id='pg-scroll'><div class='pgs' data-cat='Urban Development' data-idx='0'><div class='pg-img-side'><div class='pg-img-row'><img src='https://ssrc.online/wp-content/uploads/2026/04/tharwat2.png' loading='eager' alt=''><img src='https://ssrc.online/wp-content/uploads/2026/04/tharwat1.png' loading='lazy' alt=''><img src='https://ssrc.online/wp-content/uploads/2026/04/tharwat.png' loading='lazy' alt=''></div></div><div class='pg-text-side'><div class='pg-accent-bar'></div><div class='pg-cat' style='color:#6dc14a;'>Urban Development</div><h3 class='pg-title'>Tharwat Town Marine Works</h3><div class='pg-loc'><svg width='11' height='11' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' style='flex-shrink:0;'><path d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z'/><circle cx='12' cy='10' r='3'/></svg>&nbsp;Saudi Arabia</div><div class='pg-rule' style='background:#6dc14a;'></div><p class='pg-desc'>Marine reclamation works and shore protection design for 4,400,000 m² land development. Preparation of bid package, contract documents, and technical support during execution (2016–2018).</p><div class='pg-num'>01 / 11</div></div></div><div class='pgs pg-even' data-cat='Urban Development' data-idx='1'><div class='pg-img-side'><div class='pg-img-row'><img src='https://ssrc.online/wp-content/uploads/2026/04/concept.png' loading='lazy' alt=''><img src='https://ssrc.online/wp-content/uploads/2026/04/concept1.png' loading='lazy' alt=''></div></div><div class='pg-text-side'><div class='pg-accent-bar'></div><div class='pg-cat' style='color:#6dc14a;'>Urban Development</div><h3 class='pg-title'>Concept Master Plan — New Island KFCA</h3><div class='pg-loc'><svg width='11' height='11' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' style='flex-shrink:0;'><path d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z'/><circle cx='12' cy='10' r='3'/></svg>&nbsp;King Fahd Causeway Authority, KSA</div><div class='pg-rule' style='background:#6dc14a;'></div><p class='pg-desc'>Preparation and design of Concept Master Plan for development of the Saudi Side new Island as a commercial and entertainment hub for the King Fahd Causeway Authority.</p><div class='pg-num'>02 / 11</div></div></div><div class='pgs' data-cat='Architectural & Building' data-idx='2'><div class='pg-img-side'><div class='pg-img-row pg-img-row--single'><img src='https://ssrc.online/wp-content/uploads/2026/04/architectural.png' loading='lazy' alt=''></div></div><div class='pg-text-side'><div class='pg-accent-bar'></div><div class='pg-cat' style='color:#a78bfa;'>Architectural & Building</div><h3 class='pg-title'>King Salman Reservation — Tubaiq</h3><div class='pg-loc'><svg width='11' height='11' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' style='flex-shrink:0;'><path d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z'/><circle cx='12' cy='10' r='3'/></svg>&nbsp;Saudi Arabia</div><div class='pg-rule' style='background:#a78bfa;'></div><p class='pg-desc'>Preparation of Master Plan and Architectural design concept and theme park for a prestigious project including HQ building and facilities for King Salman Reservation.</p><div class='pg-num'>03 / 11</div></div></div><div class='pgs pg-even' data-cat='Structural & Building' data-idx='3'><div class='pg-img-side'><div class='pg-img-row pg-img-row--single'><img src='https://ssrc.online/wp-content/uploads/2026/04/oxagon.png' loading='lazy' alt=''></div></div><div class='pg-text-side'><div class='pg-accent-bar'></div><div class='pg-cat' style='color:#f9a825;'>Structural & Building</div><h3 class='pg-title'>Oxagon Terminal Warehouse — NEOM</h3><div class='pg-loc'><svg width='11' height='11' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' style='flex-shrink:0;'><path d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z'/><circle cx='12' cy='10' r='3'/></svg>&nbsp;Saudi Arabia</div><div class='pg-rule' style='background:#f9a825;'></div><p class='pg-desc'>Structural modeling for a highly technical warehouse design measuring 500m × 450m × 85m — one of the largest structural modeling projects in the region.</p><div class='pg-num'>04 / 11</div></div></div><div class='pgs' data-cat='MEP / Infrastructure' data-idx='4'><div class='pg-img-side'><div class='pg-img-row pg-img-row--single'><img src='https://ssrc.online/wp-content/uploads/2026/04/pipe.png' loading='lazy' alt=''></div></div><div class='pg-text-side'><div class='pg-accent-bar'></div><div class='pg-cat' style='color:#4fc3f7;'>MEP / Infrastructure</div><h3 class='pg-title'>Pipe Stress Analysis & Vibration Model</h3><div class='pg-loc'><svg width='11' height='11' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' style='flex-shrink:0;'><path d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z'/><circle cx='12' cy='10' r='3'/></svg>&nbsp;Jubail, Saudi Arabia</div><div class='pg-rule' style='background:#4fc3f7;'></div><p class='pg-desc'>Pipe stress analysis by CAESAR-II for several pipelines and process equipment installations. 3D modeling of piping and equipment arrangements for various plant and pipeline projects.</p><div class='pg-num'>05 / 11</div></div></div><div class='pgs pg-even' data-cat='MEP / Infrastructure' data-idx='5'><div class='pg-img-side'><div class='pg-img-row pg-img-row--single'><img src='https://ssrc.online/wp-content/uploads/2026/04/qgwp.png' loading='lazy' alt=''></div></div><div class='pg-text-side'><div class='pg-accent-bar'></div><div class='pg-cat' style='color:#4fc3f7;'>MEP / Infrastructure</div><h3 class='pg-title'>QGWP Detailed Piping Design</h3><div class='pg-loc'><svg width='11' height='11' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' style='flex-shrink:0;'><path d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z'/><circle cx='12' cy='10' r='3'/></svg>&nbsp;Qatar (with Veolia ME)</div><div class='pg-rule' style='background:#4fc3f7;'></div><p class='pg-desc'>Detailed design of piping system, stress analysis, structural modeling, fabrication drawings including isometrics, equipment skids, pipe supports, foundations, and platform design.</p><div class='pg-num'>06 / 11</div></div></div><div class='pgs' data-cat='Urban Development' data-idx='6'><div class='pg-img-side'><div class='pg-img-row pg-img-row--single'><img src='https://ssrc.online/wp-content/uploads/2026/04/cornish.png' loading='lazy' alt=''></div></div><div class='pg-text-side'><div class='pg-accent-bar'></div><div class='pg-cat' style='color:#6dc14a;'>Urban Development</div><h3 class='pg-title'>Cornish Al-Khobar Development Marine Works</h3><div class='pg-loc'><svg width='11' height='11' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' style='flex-shrink:0;'><path d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z'/><circle cx='12' cy='10' r='3'/></svg>&nbsp;Al-Khobar, Saudi Arabia</div><div class='pg-rule' style='background:#6dc14a;'></div><p class='pg-desc'>Design and reclamation, shore protection and ground improvement for 3,000,000 m² of new development. Comprehensive infrastructure works along the Al-Khobar corniche.</p><div class='pg-num'>07 / 11</div></div></div><div class='pgs pg-even' data-cat='Architectural & Building' data-idx='7'><div class='pg-img-side'><div class='pg-img-row pg-img-row--single'><img src='https://ssrc.online/wp-content/uploads/2026/04/building.png' loading='lazy' alt=''></div></div><div class='pg-text-side'><div class='pg-accent-bar'></div><div class='pg-cat' style='color:#a78bfa;'>Architectural & Building</div><h3 class='pg-title'>Building Project Cost Engineering</h3><div class='pg-loc'><svg width='11' height='11' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' style='flex-shrink:0;'><path d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z'/><circle cx='12' cy='10' r='3'/></svg>&nbsp;Mekkah, Saudi Arabia</div><div class='pg-rule' style='background:#a78bfa;'></div><p class='pg-desc'>Preparation of BOQs, material specifications, and tender design support for a major building complex in Mekkah with extensive MEP systems. Review and development of architectural finishing drawings, fire and life safety plans.</p><div class='pg-num'>08 / 11</div></div></div><div class='pgs' data-cat='Structural & Assessment' data-idx='8'><div class='pg-img-side'><div class='pg-img-row pg-img-row--single'><img src='https://ssrc.online/wp-content/uploads/2026/04/structural.png' loading='lazy' alt=''></div></div><div class='pg-text-side'><div class='pg-accent-bar'></div><div class='pg-cat' style='color:#f9a825;'>Structural & Assessment</div><h3 class='pg-title'>Structural Assessment — STC Sites</h3><div class='pg-loc'><svg width='11' height='11' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' style='flex-shrink:0;'><path d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z'/><circle cx='12' cy='10' r='3'/></svg>&nbsp;Saudi Arabia</div><div class='pg-rule' style='background:#f9a825;'></div><p class='pg-desc'>Structural assessment for up to 40 exchange buildings for STC including concrete repairs, structural strengthening measures, and comprehensive design supervision.</p><div class='pg-num'>09 / 11</div></div></div><div class='pgs pg-even' data-cat='Structural & Building' data-idx='9'><div class='pg-img-side'><div class='pg-img-row pg-img-row--single'><img src='https://ssrc.online/wp-content/uploads/2026/04/riyadh.png' loading='lazy' alt=''></div></div><div class='pg-text-side'><div class='pg-accent-bar'></div><div class='pg-cat' style='color:#f9a825;'>Structural & Building</div><h3 class='pg-title'>Riyadh International Convention & Exhibition Center</h3><div class='pg-loc'><svg width='11' height='11' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' style='flex-shrink:0;'><path d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z'/><circle cx='12' cy='10' r='3'/></svg>&nbsp;Riyadh, Saudi Arabia</div><div class='pg-rule' style='background:#f9a825;'></div><p class='pg-desc'>Structural design and connection design, shop drawing preparation, and 3D Tekla model development for the premium convention and exhibition hospitality building.</p><div class='pg-num'>10 / 11</div></div></div><div class='pgs' data-cat='Design & Documentation' data-idx='10'><div class='pg-img-side'><div class='pg-img-row pg-img-row--single'><img src='https://ssrc.online/wp-content/uploads/2026/04/plenty.png' loading='lazy' alt=''></div></div><div class='pg-text-side'><div class='pg-accent-bar'></div><div class='pg-cat' style='color:#f48fb1;'>Design & Documentation</div><h3 class='pg-title'>Shop & Fabrication Drawings</h3><div class='pg-loc'><svg width='11' height='11' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' style='flex-shrink:0;'><path d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z'/><circle cx='12' cy='10' r='3'/></svg>&nbsp;Various Locations</div><div class='pg-rule' style='background:#f48fb1;'></div><p class='pg-desc'>Comprehensive shop and fabrication drawing packages covering structural steel, MEP systems, equipment skids, and detailed fabrication specifications across multiple projects.</p><div class='pg-num'>11 / 11</div></div></div></div><button id='pg-prev' class='pg-caret'><svg width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'><path d='M15 18l-6-6 6-6'/></svg></button><button id='pg-next' class='pg-caret'><svg width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'><path d='M9 18l6-6-6-6'/></svg></button></div><script>(function(){var scroll=document.getElementById('pg-scroll');var prev=document.getElementById('pg-prev');var nxt=document.getElementById('pg-next');var ALL=Array.from(scroll.querySelectorAll('.pgs'));var vis=ALL.slice(),act=0,timer=null,animating=false,secVis=false;function smoothTo(slide,dur){if(animating)return;animating=true;var start=scroll.scrollTop,end=slide.offsetTop,diff=end-start,t0=null;function ease(t){return t<0.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;}(function step(ts){if(!t0)t0=ts;var p=Math.min((ts-t0)/dur,1);scroll.scrollTop=start+diff*ease(p);if(p<1)requestAnimationFrame(step);else{animating=false;updateCarets();}})(performance.now());}function updateCarets(){if(!secVis){prev.classList.remove('visible');nxt.classList.remove('visible');return;}prev.classList.toggle('visible',act>0);nxt.classList.toggle('visible',act<vis.length-1);prev.classList.toggle('pg-hide',act<=0);nxt.classList.toggle('pg-hide',act>=vis.length-1);}prev.addEventListener('click',function(){if(animating)return;var n=Math.max(act-1,0);if(vis[n]){smoothTo(vis[n],900);resetTimer();}});nxt.addEventListener('click',function(){if(animating)return;var n=Math.min(act+1,vis.length-1);if(vis[n]){smoothTo(vis[n],900);resetTimer();}});(function(){var o=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting&&e.intersectionRatio>=0.5){var idx=vis.indexOf(e.target);if(idx>=0){act=idx;updateCarets();}}});},{root:scroll,threshold:0.5});ALL.forEach(function(s){o.observe(s);});})();new IntersectionObserver(function(en){en.forEach(function(e){secVis=e.isIntersecting;updateCarets();});},{threshold:0.1}).observe(document.getElementById('pg-root'));function advance(){if(!secVis||animating)return;var nx=(act+1)%vis.length;if(vis[nx])smoothTo(vis[nx],900);}function startTimer(){timer=setInterval(advance,10000);}function resetTimer(){clearInterval(timer);startTimer();}startTimer();}());</script>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clients-hdr-sec",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        }
+      },
+      "elements": [
+        {
+          "id": "clients-hdr-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "clients-hdr-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clients-grid-sec",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "height": "min-height",
+        "min_height": {
+          "unit": "vh",
+          "size": 100,
+          "sizes": []
+        },
+        "overflow": "hidden"
+      },
+      "elements": [
+        {
+          "id": "clients-grid-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "clients-grid-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<style>#cl-root{display:flex;flex-direction:column;height:100vh;height:100dvh;background:#ffffff;overflow:hidden;width:100%;}#cl-hdr{text-align:center;padding:36px 64px 16px;flex-shrink:0;}#cl-wrap{flex:1;min-height:0;padding:0 40px 28px;}#cl-grid{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:1fr;gap:12px;height:100%;}.cl-card{background:#f8f9fb;border-radius:12px;border:1px solid #e4e8ef;display:flex;align-items:center;justify-content:center;padding:14px;overflow:hidden;transition:transform .25s,box-shadow .25s;}.cl-card:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,51,102,.1);}.cl-card img{max-width:100%;max-height:100%;object-fit:contain;filter:grayscale(30%) opacity(.75);transition:filter .3s;display:block;}.cl-card:hover img{filter:grayscale(0%) opacity(1);}@media(max-width:1024px){#cl-grid{grid-template-columns:repeat(4,1fr);}#cl-hdr{padding:24px 40px 12px;}}@media(max-width:768px){#cl-grid{grid-template-columns:repeat(3,1fr);gap:8px;grid-auto-rows:auto;}#cl-wrap{overflow-y:auto;padding:0 16px 20px;}#cl-hdr{padding:18px 20px 10px;}#cl-hdr h2{font-size:22px !important;}#cl-hdr p{display:none;}}</style><div id='cl-root'><div id='cl-hdr'><span style='display:inline-block;font-size:11px;font-weight:700;color:#1e8a2e;letter-spacing:3px;border:1px solid rgba(30,138,46,.25);padding:6px 20px;border-radius:100px;text-transform:uppercase;font-family:Inter,sans-serif;'>Trusted By</span><h2 style='font-family:Playfair Display,serif;font-size:36px;font-weight:900;color:#003366;margin:16px 0 10px;line-height:1.3;'>Our <span style=\"color:#1e8a2e;\">Clients</span></h2><p style='font-size:14px;color:#6b7a8d;max-width:500px;margin:0 auto;line-height:1.85;font-family:Inter,sans-serif;'>A proud portfolio of clients spanning major Saudi institutions, global energy leaders, and international contractors.</p></div><div id='cl-wrap'><div id='cl-grid'><div class='cl-card'><img src='https://ssrc.online/wp-content/uploads/2026/04/raxxal.png' loading='lazy' alt=''></div><div class='cl-card'><img src='https://ssrc.online/wp-content/uploads/2026/04/svs.png' loading='lazy' alt=''></div><div class='cl-card'><img src='https://ssrc.online/wp-content/uploads/2026/04/basic.jpg' loading='lazy' alt=''></div><div class='cl-card'><img src='https://ssrc.online/wp-content/uploads/2026/04/alomeir.png' loading='lazy' alt=''></div><div class='cl-card'><img src='https://ssrc.online/wp-content/uploads/2026/04/Basaier.png' loading='lazy' alt=''></div><div class='cl-card'><img src='https://ssrc.online/wp-content/uploads/2026/04/em.png' loading='lazy' alt=''></div><div class='cl-card'><img src='https://ssrc.online/wp-content/uploads/2026/04/azaz.png' loading='lazy' alt=''></div><div class='cl-card'><img src='https://ssrc.online/wp-content/uploads/2026/04/BCI.png' loading='lazy' alt=''></div><div class='cl-card'><img src='https://ssrc.online/wp-content/uploads/2026/04/ARM-Associates.png' loading='lazy' alt=''></div><div class='cl-card'><img src='https://ssrc.online/wp-content/uploads/2026/04/Al-Yamama.png' loading='lazy' alt=''></div><div class='cl-card'><img src='https://ssrc.online/wp-content/uploads/2026/04/Tanshia.png' loading='lazy' alt=''></div><div class='cl-card'><img src='https://ssrc.online/wp-content/uploads/2026/04/Khonaini-International.png' loading='lazy' alt=''></div><div class='cl-card'><img src='https://ssrc.online/wp-content/uploads/2026/04/Intecsa-Inarsa.png' loading='lazy' alt=''></div><div class='cl-card'><img src='https://ssrc.online/wp-content/uploads/2026/04/PowerChina-SinoHydro.png' loading='lazy' alt=''></div><div class='cl-card'><img src='https://ssrc.online/wp-content/uploads/2026/04/Arabtec.png' loading='lazy' alt=''></div><div class='cl-card'><img src='https://ssrc.online/wp-content/uploads/2026/04/Saudi-Technical-Limited.jpg' loading='lazy' alt=''></div><div class='cl-card'><img src='https://ssrc.online/wp-content/uploads/2026/04/Gulf-Consolidated-Contractors.png' loading='lazy' alt=''></div><div class='cl-card'><img src='https://ssrc.online/wp-content/uploads/2026/04/King-Fahd-Causeway-Authority.jpg' loading='lazy' alt=''></div><div class='cl-card'><img src='https://ssrc.online/wp-content/uploads/2026/04/Veolia-ME.png' loading='lazy' alt=''></div><div class='cl-card'><img src='https://ssrc.online/wp-content/uploads/2026/04/Nesma-Partners.png' loading='lazy' alt=''></div><div class='cl-card'><img src='https://ssrc.online/wp-content/uploads/2026/04/STC.png' loading='lazy' alt=''></div><div class='cl-card'><img src='https://ssrc.online/wp-content/uploads/2026/04/Saudi-Tharwa.png' loading='lazy' alt=''></div><div class='cl-card'><img src='https://ssrc.online/wp-content/uploads/2026/04/Saudi-Aramco.png' loading='lazy' alt=''></div><div class='cl-card'><img src='https://ssrc.online/wp-content/uploads/2026/04/Public-Investment-Fund.jpg' loading='lazy' alt=''></div></div></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "offices-sec",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#f8f9fb",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "64",
+          "bottom": "80",
+          "left": "64",
+          "isLinked": false
+        },
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "64",
+          "right": "40",
+          "bottom": "64",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "offices-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "offices-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style='font-family:Inter,Playfair Display,sans-serif;'><div style='text-align:center;margin-bottom:48px;'><span style='display:inline-block;font-size:11px;font-weight:700;color:#1e8a2e;letter-spacing:3px;border:1px solid rgba(30,138,46,.25);padding:6px 20px;border-radius:100px;text-transform:uppercase;'>Global Presence</span><h2 style='font-family:Playfair Display,serif;font-size:36px;font-weight:900;color:#003366;margin:20px 0 0;line-height:1.3;'>Offices &amp; <span style='color:#1e8a2e;'>Contacts</span></h2></div><style>#eb-s13g{grid-template-columns:repeat(4,1fr)!important}@media(max-width:900px){#eb-s13g{grid-template-columns:repeat(2,1fr)!important}}@media(max-width:480px){#eb-s13g{grid-template-columns:1fr!important}}</style><div id='eb-s13g' style='display:grid;grid-template-columns:repeat(4,1fr);gap:24px;'><div class='s-lift s-glow' style='background:#fff;border-radius:16px;padding:32px 24px;border:1px solid #e4e8ef;position:relative;overflow:hidden;'><div style='position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#1e8a2e,#6dc14a);'></div><div style='font-size:28px;margin-bottom:12px;'>🇸🇦</div><div style='font-family:Playfair Display,serif;font-size:16px;font-weight:800;color:#003366;margin-bottom:8px;'>Kingdom of Saudi Arabia</div><div style='width:24px;height:1px;background:#e4e8ef;margin-bottom:12px;'></div><div style='font-size:12px;color:#6b7a8d;line-height:1.8;'><div style='margin-bottom:4px;'>Al Madinah, KSA</div><div style='margin-bottom:4px;'>C.R. 4650069841</div><div style='margin-bottom:4px;font-weight:600;color:#1e8a2e;'>+966 56 289 0928</div><div style='font-size:11px;color:#6b7a8d;'>atassid@gmail.com</div></div></div><div class='s-lift s-glow' style='background:#fff;border-radius:16px;padding:32px 24px;border:1px solid #e4e8ef;position:relative;overflow:hidden;'><div style='position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#003366,#004d80);'></div><div style='font-size:28px;margin-bottom:12px;'>🇸🇾</div><div style='font-family:Playfair Display,serif;font-size:16px;font-weight:800;color:#003366;margin-bottom:8px;'>Syrian Arab Republic</div><div style='width:24px;height:1px;background:#e4e8ef;margin-bottom:12px;'></div><div style='font-size:12px;color:#6b7a8d;line-height:1.8;'><div style='margin-bottom:4px;'>Damascus, Syria</div><div style='margin-bottom:8px;'>&nbsp;</div><div style='margin-bottom:4px;font-weight:600;color:#1e8a2e;'>+963 944 423 015</div><div style='font-size:11px;color:#6b7a8d;'>info@mes-syr.com</div></div></div><div class='s-lift s-glow' style='background:#fff;border-radius:16px;padding:32px 24px;border:1px solid #e4e8ef;position:relative;overflow:hidden;'><div style='position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#1e8a2e,#6dc14a);'></div><div style='font-size:28px;margin-bottom:12px;'>🇪🇬</div><div style='font-family:Playfair Display,serif;font-size:16px;font-weight:800;color:#003366;margin-bottom:8px;'>Egypt</div><div style='width:24px;height:1px;background:#e4e8ef;margin-bottom:12px;'></div><div style='font-size:12px;color:#6b7a8d;line-height:1.8;'><div style='margin-bottom:4px;'>Cairo, Egypt</div><div style='margin-bottom:8px;'>&nbsp;</div><div style='margin-bottom:4px;font-weight:600;color:#1e8a2e;'>+201004572373</div><div style='font-size:11px;color:#6b7a8d;'>islam.aboushady@akoya-eg.com</div></div></div><div class='s-lift s-glow' style='background:#fff;border-radius:16px;padding:32px 24px;border:1px solid #e4e8ef;position:relative;overflow:hidden;'><div style='position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#003366,#004d80);'></div><div style='font-size:28px;margin-bottom:12px;'>🇹🇷</div><div style='font-family:Playfair Display,serif;font-size:16px;font-weight:800;color:#003366;margin-bottom:8px;'>Türkiye</div><div style='width:24px;height:1px;background:#e4e8ef;margin-bottom:12px;'></div><div style='font-size:12px;color:#6b7a8d;line-height:1.8;'><div style='margin-bottom:4px;'>Gaziantep, Türkiye</div><div style='margin-bottom:8px;'>&nbsp;</div><div style='margin-bottom:4px;font-weight:600;color:#1e8a2e;'>+90 551 587 9600</div><div style='font-size:11px;color:#6b7a8d;'>Representative Office</div></div></div></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "partners-sec",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#003366",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "64",
+          "bottom": "80",
+          "left": "64",
+          "isLinked": false
+        },
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "64",
+          "right": "40",
+          "bottom": "64",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "partners-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "partners-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div style='font-family:Inter,Playfair Display,sans-serif;'><div style='text-align:center;margin-bottom:48px;'><span style='display:inline-block;font-size:11px;font-weight:700;color:#6dc14a;letter-spacing:3px;border:1px solid rgba(109,193,74,.3);padding:6px 20px;border-radius:100px;text-transform:uppercase;'>Network</span><h2 style='font-family:Playfair Display,serif;font-size:36px;font-weight:900;color:#fff;margin:20px 0 0;line-height:1.3;'>Affiliates <span class='s-accent-text'>&amp; Partners</span></h2></div><style>#eb-s14g{grid-template-columns:repeat(4,1fr)!important}@media(max-width:900px){#eb-s14g{grid-template-columns:repeat(2,1fr)!important}}@media(max-width:480px){#eb-s14g{grid-template-columns:1fr!important}}</style><div id='eb-s14g' style='display:grid;grid-template-columns:repeat(4,1fr);gap:24px;'><div class='s-lift' style='background:rgba(255,255,255,.05);border-radius:16px;padding:36px 28px;border:1px solid rgba(30,138,46,.2);text-align:center;'><div style='width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,rgba(30,138,46,.3),rgba(0,77,128,.3));border:2px solid rgba(30,138,46,.4);display:flex;align-items:center;justify-content:center;margin:0 auto 16px;'><span style='font-size:20px;font-weight:800;color:#6dc14a;'>M</span></div><div style='font-family:Playfair Display,serif;font-size:16px;font-weight:800;color:#fff;margin-bottom:6px;'>Modern Engineering Solutions</div><div style='font-size:11px;color:rgba(255,255,255,.4);letter-spacing:1px;text-transform:uppercase;margin-bottom:12px;'>MES</div><p style='font-size:12px;color:rgba(255,255,255,.5);line-height:1.75;margin:0;'>Syria representative and key affiliate providing engineering solutions across the region.</p></div><div class='s-lift' style='background:rgba(255,255,255,.05);border-radius:16px;padding:36px 28px;border:1px solid rgba(30,138,46,.2);text-align:center;'><div style='width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,rgba(30,138,46,.3),rgba(0,77,128,.3));border:2px solid rgba(30,138,46,.4);display:flex;align-items:center;justify-content:center;margin:0 auto 16px;'><span style='font-size:20px;font-weight:800;color:#6dc14a;'>A</span></div><div style='font-family:Playfair Display,serif;font-size:16px;font-weight:800;color:#fff;margin-bottom:6px;'>Advanced Engineering Solutions</div><div style='font-size:11px;color:rgba(255,255,255,.4);letter-spacing:1px;text-transform:uppercase;margin-bottom:12px;'>AES</div><p style='font-size:12px;color:rgba(255,255,255,.5);line-height:1.75;margin:0;'>Strategic partner delivering advanced engineering capabilities for complex projects.</p></div><div class='s-lift' style='background:rgba(255,255,255,.05);border-radius:16px;padding:36px 28px;border:1px solid rgba(30,138,46,.2);text-align:center;'><div style='width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,rgba(30,138,46,.3),rgba(0,77,128,.3));border:2px solid rgba(30,138,46,.4);display:flex;align-items:center;justify-content:center;margin:0 auto 16px;'><span style='font-size:20px;font-weight:800;color:#6dc14a;'>N</span></div><div style='font-family:Playfair Display,serif;font-size:16px;font-weight:800;color:#fff;margin-bottom:6px;'>NCS Engineering Co. W.L.L.</div><div style='font-size:11px;color:rgba(255,255,255,.4);letter-spacing:1px;text-transform:uppercase;margin-bottom:12px;'>Tylos · Bahrain</div><p style='font-size:12px;color:rgba(255,255,255,.5);line-height:1.75;margin:0;'>Bahrain-based partner providing specialized construction and engineering services.</p></div><div class='s-lift' style='background:rgba(255,255,255,.05);border-radius:16px;padding:36px 28px;border:1px solid rgba(30,138,46,.2);text-align:center;'><div style='width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,rgba(30,138,46,.3),rgba(0,77,128,.3));border:2px solid rgba(30,138,46,.4);display:flex;align-items:center;justify-content:center;margin:0 auto 16px;'><span style='font-size:20px;font-weight:800;color:#6dc14a;'>A</span></div><div style='font-family:Playfair Display,serif;font-size:16px;font-weight:800;color:#fff;margin-bottom:6px;'>AKOYA Engineering</div><div style='font-size:11px;color:rgba(255,255,255,.4);letter-spacing:1px;text-transform:uppercase;margin-bottom:12px;'>Egypt</div><p style='font-size:12px;color:rgba(255,255,255,.5);line-height:1.75;margin:0;'>Egypt affiliate supporting engineering and consultancy operations across North Africa.</p></div></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta-sec",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#f8f9fb",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "64",
+          "bottom": "80",
+          "left": "64",
+          "isLinked": false
+        },
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "64",
+          "right": "40",
+          "bottom": "64",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "cta-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "cta-w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<style>@media(max-width:768px){#eb-s15c{padding:36px 24px!important}#eb-s15c h2{font-size:24px!important}#eb-s15c>p{font-size:13px!important}}</style><div id='eb-s15c' style='max-width:680px;margin:0 auto;text-align:center;font-family:Inter,Playfair Display,sans-serif;background:#fff;border-radius:24px;padding:60px 48px;border:1px solid #e4e8ef;box-shadow:0 16px 52px rgba(0,51,102,.07);position:relative;overflow:hidden;'><div style='position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,#1e8a2e,#6dc14a,#003366);'></div><div style='display:inline-flex;align-items:center;gap:8px;background:rgba(30,138,46,.07);border:1px solid rgba(30,138,46,.2);padding:6px 18px;border-radius:100px;margin-bottom:24px;'><span style='width:6px;height:6px;border-radius:50%;background:#1e8a2e;'></span><span style='font-size:11px;font-weight:700;color:#1e8a2e;letter-spacing:2px;text-transform:uppercase;'>Engineering Partner</span></div><h2 style='font-family:Playfair Display,serif;font-size:32px;font-weight:900;color:#003366;line-height:1.3;margin-bottom:16px;'>Ready to Partner with <span style='color:#1e8a2e;'>MTCO?</span></h2><p style='font-size:15px;color:#6b7a8d;line-height:1.9;margin-bottom:36px;'>Get in touch with SSRC to learn how we can connect you with MTCO's engineering consultancy expertise — from design management to speciality Oil &amp; Gas services.</p><div style='display:flex;gap:16px;justify-content:center;flex-wrap:wrap;'><a href='/contact' style='padding:14px 36px;background:linear-gradient(135deg,#1e8a2e,#155c1e);border-radius:8px;color:#fff;font-size:14px;font-weight:700;text-decoration:none;display:inline-block;box-shadow:0 4px 20px rgba(30,138,46,.25);transition:all .3s;'>Contact SSRC</a><a href='/services' style='padding:14px 36px;border:2px solid #003366;border-radius:8px;color:#003366;font-size:14px;font-weight:700;text-decoration:none;display:inline-block;transition:all .3s;'>Our Services</a></div></div>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
