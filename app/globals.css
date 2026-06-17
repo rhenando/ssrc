@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-head: "Playfair Display";
+  --font-body: "DM Sans";
+  --font-arabic: "Cairo";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: clip;
+}
+
+body {
+  margin: 0;
+  color: #3d4f63;
+  background: #fff;
+  overflow-x: clip;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+.fade-up {
+  animation: fade-up .65s ease both;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.accent {
+  color: #008080;
+  position: relative;
+}
+
+.accent::after {
+  content: "";
+  position: absolute;
+  inset-inline-start: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 3px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, #008080, transparent);
+}
+
+[dir="rtl"] .accent::after {
+  background: linear-gradient(270deg, #008080, transparent);
+}
+
+.section-rule {
+  width: 50px;
+  height: 4px;
+  margin: 0 auto;
+  border-radius: 2px;
+  background: linear-gradient(90deg, #008080, #003366);
+}
+
+.card-top::after {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  top: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #008080, #003366);
+}
+
+.card-bar::before {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  top: 0;
+  height: 4px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .3s;
+  background: linear-gradient(90deg, #003366, #008080);
+}
+
+[dir="rtl"] .card-bar::before {
+  transform-origin: right;
+}
+
+.card-bar:hover::before {
+  transform: scaleX(1);
+}
