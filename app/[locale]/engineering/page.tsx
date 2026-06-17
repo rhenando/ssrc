@@ -120,7 +120,7 @@ export default async function EngineeringPage({ params }: { params: Promise<{ lo
         <div className="relative z-10 grid h-full grid-cols-1 md:grid-cols-[55fr_45fr]">
           <div className="flex flex-col justify-center px-6 py-12 md:px-12 lg:px-16">
             <div className="mb-7 flex items-center gap-3">
-              <span className="text-[11px] font-bold uppercase tracking-[2px] text-green-light">{isAr ? "المجالس الهندسية" : "Engineering Boards"}</span>
+              <span className="text-[11px] font-bold uppercase tracking-[2px] text-green-light">{isAr ? "المجالس الهندسية" : "Engineering Division"}</span>
               <span className="h-px w-10 bg-green" />
             </div>
             <span className="mb-5 inline-flex rounded-full border border-green-light/30 px-4 py-1.5 text-[11px] font-bold uppercase tracking-[2px] text-green-light">
