@@ -107,6 +107,16 @@ const partners = [
   { letter: "A", title: "AKOYA Engineering", subtitle: "Egypt", body: { en: "Egypt affiliate supporting engineering and consultancy operations across North Africa.", ar: "شريك مصر لدعم العمليات الهندسية والاستشارية في شمال أفريقيا." } }
 ];
 
+const portraitAdjustments: Record<string, string> = {
+  "ahmad-alkhateeb": "scale-[2.05] translate-y-[20px]",
+  "raghid-abdelsamad": "scale-[2.05] translate-y-[20px]",
+  "reem-hayder": "scale-[1.12] translate-y-[3px]",
+  "jose-togado": "scale-[1.14] translate-y-[4px]",
+  "samir-rania": "scale-[1.18] translate-y-[4px]",
+  "mohamed-alomar": "scale-[1.18] translate-y-[4px]",
+  "hussam-kassab": "scale-[1.08] translate-y-[3px]"
+};
+
 export default async function EngineeringPage({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params;
   const data = await getPublicData();
@@ -231,7 +241,13 @@ export default async function EngineeringPage({ params }: { params: Promise<{ lo
                 <div className={cn("absolute inset-x-0 top-0 h-[3px] bg-green", index % 2 === 1 && "bg-navy")} />
                 <div className="shrink-0 md:pt-1">
                   <div className="relative h-[76px] w-[76px] overflow-hidden rounded-full border border-[#c9d3dd] bg-white shadow-[0_7px_18px_rgba(0,51,102,.18)]">
-                    <Image src={member.image} alt={member.name} fill sizes="76px" className="object-cover" />
+                    <Image
+                      src={member.image}
+                      alt={member.name}
+                      fill
+                      sizes="76px"
+                      className={cn("object-cover object-center", portraitAdjustments[member.slug])}
+                    />
                   </div>
                 </div>
                 <div className="min-w-0 flex-1">
