@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowLeft, ArrowRight, Check, FileText, Globe2, Home, LayoutGrid, MapPin, Truck, type LucideIcon } from "lucide-react";
+import { ArrowLeft, ArrowRight, Check, DraftingCompass, FileText, Globe2, HardHat, Home, LayoutGrid, MapPin, Sparkles, Truck, type LucideIcon } from "lucide-react";
 import { getPublicData } from "@/data/queries";
 import { localeHref } from "@/lib/locales";
 import type { Locale } from "@/lib/types";
@@ -72,6 +72,7 @@ const serviceOverview = [
 const serviceGroups = [
   {
     title: { en: "Design Services", ar: "خدمات التصميم" },
+    icon: DraftingCompass,
     items: {
       en: ["Hydraulic Design & Modeling", "Pipe Stress Analysis", "Pipe Flow Design", "Structural Design & Modeling", "Fire Protection Design (NFPA)", "Telecom Design", "Oil & Gas Engineering", "Instrument / Low Current Systems", "BIM Modeling Capabilities", "Traffic Studies", "Master Planning"],
       ar: ["التصميم الهيدروليكي والنمذجة", "تحليل إجهاد الأنابيب", "تصميم تدفق الأنابيب", "التصميم الإنشائي والنمذجة", "تصميم الحماية من الحرائق (NFPA)", "تصميم الاتصالات", "هندسة النفط والغاز", "أنظمة الأجهزة والتيار المنخفض", "قدرات نمذجة BIM", "دراسات المرور", "التخطيط الرئيسي"]
@@ -79,6 +80,7 @@ const serviceGroups = [
   },
   {
     title: { en: "Construction Services", ar: "خدمات الإنشاء" },
+    icon: HardHat,
     items: {
       en: ["Shop Drawings", "Construction Support", "As-Built Preparation", "Preparation of Procedures & Methodologies", "Fabrication Drawings", "Quantity Surveying", "Claims Support & Management", "Field Topographic Survey"],
       ar: ["رسومات الورشة", "دعم الإنشاء", "إعداد الرسومات الختامية", "إعداد الإجراءات والمنهجيات", "رسومات التصنيع", "المساحة الكمية", "دعم المطالبات وإدارتها", "المسح الطبوغرافي الميداني"]
@@ -86,6 +88,7 @@ const serviceGroups = [
   },
   {
     title: { en: "Speciality Services", ar: "الخدمات المتخصصة" },
+    icon: Sparkles,
     items: {
       en: ["Design Verifications", "Alternative Value Engineered Designs", "Logistics, Lifting & Erection Studies", "Crude Oil / Gas and NGL Specialists", "Design Completion", "BIM Clashes Detection", "Site Conditions Assessments"],
       ar: ["التحقق من التصاميم", "تصاميم هندسة القيمة البديلة", "دراسات اللوجستيات والرفع والتركيب", "متخصصو النفط الخام والغاز والسوائل", "استكمال التصميم", "كشف تعارضات BIM", "تقييمات أحوال الموقع"]
@@ -94,10 +97,10 @@ const serviceGroups = [
 ];
 
 const offices = [
-  { flag: "🇸🇦", title: { en: "Kingdom of Saudi Arabia", ar: "المملكة العربية السعودية" }, lines: ["Al Madinah, KSA", "C.R. 4650069841", "+966 56 289 0928", "atassid@gmail.com"] },
-  { flag: "🇸🇾", title: { en: "Syrian Arab Republic", ar: "الجمهورية العربية السورية" }, lines: ["Damascus, Syria", "", "+963 944 423 015", "info@mes-syr.com"] },
-  { flag: "🇪🇬", title: { en: "Egypt", ar: "مصر" }, lines: ["Cairo, Egypt", "", "+201004572373", "islam.aboushady@akoya-eg.com"] },
-  { flag: "🇹🇷", title: { en: "Türkiye", ar: "تركيا" }, lines: ["Gaziantep, Türkiye", "", "+90 551 587 9600", "Representative Office"] }
+  { flagSrc: "/flags/sa.svg", title: { en: "Kingdom of Saudi Arabia", ar: "المملكة العربية السعودية" }, lines: ["Al Madinah, KSA", "C.R. 4650069841", "+966 56 289 0928", "atassid@gmail.com"] },
+  { flagSrc: "/flags/sy.svg", title: { en: "Syrian Arab Republic", ar: "الجمهورية العربية السورية" }, lines: ["Damascus, Syria", "", "+963 944 423 015", "info@mes-syr.com"] },
+  { flagSrc: "/flags/eg.svg", title: { en: "Egypt", ar: "مصر" }, lines: ["Cairo, Egypt", "", "+201004572373", "islam.aboushady@akoya-eg.com"] },
+  { flagSrc: "/flags/tr.svg", title: { en: "Türkiye", ar: "تركيا" }, lines: ["Gaziantep, Türkiye", "", "+90 551 587 9600", "Representative Office"] }
 ];
 
 const partners = [
@@ -107,14 +110,12 @@ const partners = [
   { letter: "A", title: "AKOYA Engineering", subtitle: "Egypt", body: { en: "Egypt affiliate supporting engineering and consultancy operations across North Africa.", ar: "شريك مصر لدعم العمليات الهندسية والاستشارية في شمال أفريقيا." } }
 ];
 
-const portraitAdjustments: Record<string, string> = {
-  "ahmad-alkhateeb": "scale-[2.05] translate-y-[20px]",
-  "raghid-abdelsamad": "scale-[2.05] translate-y-[20px]",
-  "reem-hayder": "scale-[1.12] translate-y-[3px]",
-  "jose-togado": "scale-[1.14] translate-y-[4px]",
-  "samir-rania": "scale-[1.18] translate-y-[4px]",
-  "mohamed-alomar": "scale-[1.18] translate-y-[4px]",
-  "hussam-kassab": "scale-[1.08] translate-y-[3px]"
+const managementPortraitAdjustments: Record<string, string> = {
+  "ahmad-alkhateeb": "object-contain bg-white",
+  "azmi-atassi": "object-contain bg-white",
+  "durry-atassi-engineering": "object-contain bg-white",
+  "hussam-kassab": "object-contain bg-white",
+  "raghid-abdelsamad": "object-contain bg-white"
 };
 
 export default async function EngineeringPage({ params }: { params: Promise<{ locale: Locale }> }) {
@@ -125,52 +126,58 @@ export default async function EngineeringPage({ params }: { params: Promise<{ lo
 
   return (
     <>
-      <section className="relative h-screen min-h-[620px] overflow-hidden bg-navy text-white">
+      <section className="relative min-h-[560px] overflow-hidden bg-navy text-white md:min-h-[620px]">
+        <div className="absolute -left-24 top-12 h-72 w-72 rounded-full bg-green/20 blur-[90px]" />
+        <div className="absolute -right-20 bottom-10 h-80 w-80 rounded-full bg-green-light/10 blur-[100px]" />
         <div className="absolute inset-0 bg-[linear-gradient(rgba(30,138,46,.055)_1px,transparent_1px),linear-gradient(90deg,rgba(30,138,46,.055)_1px,transparent_1px)] bg-[length:48px_48px]" />
-        <div className="relative z-10 grid h-full grid-cols-1 md:grid-cols-[55fr_45fr]">
-          <div className="flex flex-col justify-center px-6 py-12 md:px-12 lg:px-16">
-            <div className="mb-7 flex items-center gap-3">
+        <div className="relative z-10 mx-auto grid min-h-[560px] max-w-[1200px] grid-cols-1 gap-8 px-6 py-12 md:min-h-[620px] md:grid-cols-[1.08fr_.92fr] md:items-center md:px-10 md:py-0 lg:px-12">
+          <div className="order-2 flex flex-col justify-center md:order-1">
+            <div className="mb-5 flex items-center gap-3">
               <span className="text-[11px] font-bold uppercase tracking-[2px] text-green-light">{isAr ? "المجالس الهندسية" : "Engineering Division"}</span>
               <span className="h-px w-10 bg-green" />
             </div>
-            <span className="mb-5 inline-flex rounded-full border border-green-light/30 px-4 py-1.5 text-[11px] font-bold uppercase tracking-[2px] text-green-light">
+            <span className="mb-5 inline-flex w-fit rounded-full border border-green-light/30 bg-white/[.04] px-4 py-1.5 text-[11px] font-bold uppercase tracking-[2px] text-green-light">
               {isAr ? "تأسست 2012 - المدينة المنورة، السعودية" : "Established 2012 - Al Madinah, KSA"}
             </span>
-            <h1 className="font-head text-[36px] font-black leading-[1.15] text-white md:text-[48px]">
+            <h1 className="max-w-[620px] font-head text-[40px] font-black leading-[1.08] text-white md:text-[56px]">
               {isAr ? "مكتب موارد طيبة" : "Modern Technologies"}
               <br />
               <span className="bg-[linear-gradient(90deg,#1e8a2e,#6dc14a,#155c1e)] bg-clip-text text-transparent">{isAr ? "للاستشارات" : "Engineering and Contracting"}</span>
             </h1>
-            <p className="mt-5 max-w-[440px] text-[17px] italic leading-[1.9] text-white/55">{isAr ? "نضيف قيمة، مشروعاً بمشروع." : "We add value, one project at a time."}</p>
-            <p className="mt-4 max-w-[420px] text-sm leading-[1.8] text-white/40">
+            <p className="mt-5 max-w-[500px] text-[18px] italic leading-[1.65] text-white/70">{isAr ? "نضيف قيمة، مشروعاً بمشروع." : "We add value, one project at a time."}</p>
+            <p className="mt-4 max-w-[520px] text-sm leading-[1.8] text-white/55">
               {isAr
                 ? "جودة العمل الاستثنائية هي المعيار، من خلال حلول استشارات هندسية مبتكرة وموثوقة وموجهة للعميل في الشرق الأوسط."
                 : "Our exceptional quality of work is the norm - delivering innovative, reliable, and client-focused engineering consultancy solutions across the Middle East and beyond."}
             </p>
-            <div className="mt-10 flex flex-wrap gap-4">
+            <div className="mt-8 flex flex-wrap gap-3">
               <GreenButton href="#services" locale={locale}>{isAr ? "استعرض الخدمات" : "Explore Services"}</GreenButton>
               <GreenButton href="#projects" locale={locale} outline>{isAr ? "عرض المشاريع" : "View Projects"}</GreenButton>
             </div>
           </div>
-          <div className="relative hidden items-center justify-center overflow-hidden md:flex">
-            <div className="absolute inset-0 z-10 bg-[linear-gradient(90deg,#003366_0%,transparent_35%)]" />
-            <Image
-              src="/images/2026/04/MTCO Logo v2.png"
-              alt="MTCO Logo"
-              width={680}
-              height={360}
-              className="relative z-0 w-[min(80%,340px)] rounded-[20px] shadow-[0_24px_80px_rgba(0,0,0,.5),0_8px_24px_rgba(0,0,0,.3)]"
-              priority
-            />
+          <div className="relative order-1 flex items-center justify-center pb-4 md:order-2 md:pb-0">
+            <div className="relative w-full max-w-[300px] overflow-hidden rounded-[22px] border border-white/10 bg-white/[.06] p-4 shadow-[0_30px_90px_rgba(0,0,0,.32)] backdrop-blur sm:max-w-[340px] md:max-w-[390px] md:p-6">
+              <div className="absolute inset-x-0 top-0 h-1 bg-[linear-gradient(90deg,#1e8a2e,#6dc14a,#003366)]" />
+              <div className="rounded-[18px] bg-white p-5 shadow-[0_18px_50px_rgba(0,0,0,.22)] sm:p-6 md:p-8">
+                <Image
+                  src="/images/2026/04/MTCO Logo v2.png"
+                  alt="MTCO Logo"
+                  width={680}
+                  height={360}
+                  className="mx-auto w-full max-w-[260px] sm:max-w-[300px] md:max-w-[320px]"
+                  priority
+                />
+              </div>
+            </div>
           </div>
         </div>
         <div className="absolute inset-x-0 bottom-0 z-20 h-px bg-[linear-gradient(90deg,transparent,rgba(30,138,46,.3),transparent)]" />
       </section>
 
-      <section className="bg-[#f8f9fb] px-5 py-8 md:px-10 md:py-12 lg:px-16 lg:py-16">
-        <div className="mx-auto grid max-w-[1100px] grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <section className="bg-[#f8f9fb] px-5 py-7 md:px-10 md:py-9 lg:px-16 lg:py-11">
+        <div className="mx-auto grid max-w-[1100px] grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {stats.map((stat, index) => (
-            <article key={stat.value} className="relative overflow-hidden rounded-2xl border border-[#e4e8ef] bg-white px-7 py-9 text-center shadow-card transition hover:-translate-y-1 hover:shadow-card-lg">
+            <article key={stat.value} className="relative overflow-hidden rounded-2xl border border-[#e4e8ef] bg-white px-6 py-7 text-center shadow-card transition hover:-translate-y-1 hover:shadow-card-lg">
               <div className={cn("absolute inset-x-0 top-0 h-[3px] bg-[linear-gradient(90deg,#1e8a2e,#6dc14a)]", index % 2 === 1 && "bg-[linear-gradient(90deg,#003366,#004d80)]")} />
               <StatValue value={stat.value} />
               <div className="mt-2 text-[11px] font-bold uppercase tracking-[2px] text-green">{t(stat.label, locale)}</div>
@@ -180,7 +187,7 @@ export default async function EngineeringPage({ params }: { params: Promise<{ lo
         </div>
       </section>
 
-      <section id="services" className="bg-white px-5 pb-2 pt-12 md:px-10 md:pt-[60px] lg:px-16 lg:pt-20">
+      <section id="services" className="bg-white px-5 pb-1 pt-10 md:px-10 md:pt-12 lg:px-16 lg:pt-14">
         <div className="mx-auto max-w-[1100px]">
           <EngHeading eyebrow={isAr ? "ما نقدمه" : "What We Do"} title={isAr ? "خدمات الهندسة والاستشارات" : "Engineering & Consultancy Services"} locale={locale} accentTitle>
             {isAr ? "تميّز تقني عبر خمسة محاور خدمية رئيسية من التصميم الأولي حتى دعم الإنشاء وإدارة البيئة والخدمات اللوجستية." : "Delivering technical excellence across five core service areas - from initial design through construction support, environmental management, and logistics."}
@@ -188,11 +195,11 @@ export default async function EngineeringPage({ params }: { params: Promise<{ lo
         </div>
       </section>
 
-      <section className="bg-white px-5 pb-12 md:px-10 md:pb-16 lg:px-16">
+      <section className="bg-white px-5 pb-10 md:px-10 md:pb-12 lg:px-16">
         <div className="mx-auto max-w-[1100px]">
           <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
             {serviceOverview.map((service, index) => (
-              <article key={service.title.en} className="relative overflow-hidden rounded-[14px] border border-[#e4e8ef] bg-[#f8f9fb] px-5 py-8 text-center transition hover:-translate-y-1 hover:shadow-card">
+              <article key={service.title.en} className="relative overflow-hidden rounded-[14px] border border-[#e4e8ef] bg-[#f8f9fb] px-5 py-6 text-center transition hover:-translate-y-1 hover:shadow-card">
                 <div className={cn("absolute inset-x-0 top-0 h-[3px] bg-[linear-gradient(90deg,#1e8a2e,#6dc14a)]", index % 2 === 1 && "bg-[linear-gradient(90deg,#003366,#004d80)]")} />
                 <div className={cn("mx-auto mb-[18px] flex h-[60px] w-[60px] items-center justify-center rounded-[14px] bg-[linear-gradient(135deg,#1e8a2e,#155c1e)] text-white shadow-[0_8px_24px_rgba(30,138,46,.2)]", index % 2 === 1 && "bg-[linear-gradient(135deg,#003366,#004d80)] shadow-[0_8px_24px_rgba(0,51,102,.2)]")}>
                   <ServiceIcon icon={service.icon} />
@@ -205,19 +212,19 @@ export default async function EngineeringPage({ params }: { params: Promise<{ lo
         </div>
       </section>
 
-      <section className="bg-navy px-6 py-16 md:px-10 md:py-20">
+      <section className="bg-navy px-6 py-12 md:px-10 md:py-14">
         <div className="mx-auto max-w-[1100px]">
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
             {serviceGroups.map((group) => (
               <article key={group.title.en} className="overflow-hidden rounded-2xl border border-green/20 bg-white/[.04] text-white">
-                <div className="border-b border-green/15 px-7 pb-5 pt-7">
+                <div className="border-b border-green/15 px-6 pb-4 pt-6">
                   <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-xl bg-[linear-gradient(135deg,#1e8a2e,#155c1e)] text-white">
-                    <Check className="h-5 w-5" />
+                    <ServiceIcon icon={group.icon} />
                   </div>
                   <h3 className="font-head text-xl font-black text-white">{t(group.title, locale)}</h3>
                 </div>
-                <div className="p-7">
-                  <ul className="space-y-3">
+                <div className="p-6">
+                  <ul className="space-y-2.5">
                     {t(group.items, locale).map((item) => (
                       <li key={item} className="flex gap-3 text-[13px] leading-6 text-white/65">
                         <Check className="mt-1 h-4 w-4 shrink-0 text-green-light" />
@@ -232,32 +239,45 @@ export default async function EngineeringPage({ params }: { params: Promise<{ lo
         </div>
       </section>
 
-      <section className="bg-[#f8f9fb] px-5 py-12 md:px-10 md:py-16 lg:px-16 lg:py-20">
-        <div className="mx-auto max-w-[1100px]">
-          <EngHeading eyebrow={isAr ? "القيادة" : "Leadership"} title={isAr ? "الإدارة الرئيسية" : "Key Management"} locale={locale} accentTitle />
-          <div className="space-y-6">
+      <section className="bg-[#f8f9fb] px-5 py-10 md:px-10 md:py-12 lg:px-16 lg:py-14">
+        <div className="mx-auto max-w-[1180px]">
+          <div className="mb-8 grid grid-cols-1 gap-5 border-b border-[#dce3ec] pb-6 md:grid-cols-[.85fr_1.15fr] md:items-end">
+            <div>
+              <span className="inline-block rounded-full border border-green/25 bg-white px-5 py-1.5 text-[11px] font-bold uppercase tracking-[3px] text-green">{isAr ? "القيادة" : "Leadership"}</span>
+              <h2 className="mt-5 font-head text-[28px] font-black leading-[1.2] text-navy md:text-[40px]">{isAr ? "الإدارة الرئيسية" : "Key Management"}</h2>
+            </div>
+            <p className="max-w-[620px] text-[14px] leading-[1.9] text-[#36506b] md:justify-self-end">
+              {isAr
+                ? "فريق قيادي يجمع خبرات التصميم وإدارة المشاريع والبنية التحتية لدعم التنفيذ بمستوى مهني عال."
+                : "Senior technical leaders with deep experience across infrastructure, oil and gas, architecture, BIM, MEP, and multidisciplinary project delivery."}
+            </p>
+          </div>
+          <div className="space-y-5">
             {engineeringTeam.map((member, index) => (
-              <article key={member.slug} className="relative flex flex-col gap-6 overflow-hidden rounded-xl border border-[#dce3ec] bg-white px-6 py-7 shadow-[0_8px_26px_rgba(0,51,102,.06)] md:flex-row md:gap-8">
-                <div className={cn("absolute inset-x-0 top-0 h-[3px] bg-green", index % 2 === 1 && "bg-navy")} />
-                <div className="shrink-0 md:pt-1">
-                  <div className="relative h-[76px] w-[76px] overflow-hidden rounded-full border border-[#c9d3dd] bg-white shadow-[0_7px_18px_rgba(0,51,102,.18)]">
-                    <Image
-                      src={member.image}
-                      alt={member.name}
-                      fill
-                      sizes="76px"
-                      className={cn("object-cover object-center", portraitAdjustments[member.slug])}
-                    />
+              <article key={member.slug} className="relative overflow-hidden border-b border-[#dce3ec] bg-white px-5 py-6 last:border-b-0 md:px-7 md:py-7">
+                <div className={cn("absolute left-0 top-6 h-[170px] w-[3px] bg-green md:top-7", index % 2 === 1 && "bg-navy")} />
+                <div className="grid grid-cols-1 gap-6 sm:grid-cols-[170px_1fr] sm:items-start">
+                  <div className="shrink-0">
+                    <div className="relative h-[170px] w-[170px] overflow-hidden rounded-[14px] bg-[#edf4ef]">
+                      <Image
+                        src={member.image}
+                        alt={member.name}
+                        fill
+                        sizes="170px"
+                        className={cn("object-cover object-center", managementPortraitAdjustments[member.slug])}
+                      />
+                    </div>
                   </div>
-                </div>
-                <div className="min-w-0 flex-1">
-                  <h3 className="font-head text-xl font-black leading-tight text-navy">{member.name}</h3>
-                  <ManagementRole role={t(member.roles, locale)} />
-                  <div className="my-5 h-px w-10 bg-[#dce3ec]" />
-                  <div className="space-y-4">
-                    {t(member.bios, locale).split("\n\n").map((paragraph) => (
-                      <p key={paragraph} className="text-[13px] leading-[1.85] text-[#36506b]">{paragraph}</p>
-                    ))}
+                  <div className="min-w-0 pt-0.5">
+                    <div className="min-h-[86px]">
+                      <h3 className="font-head text-[22px] font-black leading-tight text-navy">{member.name}</h3>
+                      <ManagementRole role={t(member.roles, locale)} />
+                    </div>
+                    <div className="max-w-[780px] space-y-3">
+                      {t(member.bios, locale).split("\n\n").map((paragraph) => (
+                        <p key={paragraph} className="text-[14px] leading-[1.85] text-[#36506b]">{paragraph}</p>
+                      ))}
+                    </div>
                   </div>
                 </div>
               </article>
@@ -266,28 +286,28 @@ export default async function EngineeringPage({ params }: { params: Promise<{ lo
         </div>
       </section>
 
-      <section id="projects" className="bg-white px-6 py-16 md:px-10 md:py-20">
+      <section id="projects" className="bg-white px-6 py-12 md:px-10 md:py-14">
         <div className="mx-auto max-w-[1200px]">
           <EngHeading eyebrow={isAr ? "المحفظة" : "Portfolio"} title={isAr ? "خبرة المشاريع" : "Projects Experience"} locale={locale} />
           <div className="space-y-8">
-            {data.engineeringProjects.map((project, index) => (
-              <article key={project.slug} className="grid overflow-hidden rounded-2xl border border-[#e8ebf0] bg-white shadow-card-lg md:grid-cols-2">
-                <div className={cn("grid min-h-[340px] grid-cols-2 gap-1 bg-[#f8f9fb]", index % 2 ? "md:order-2" : "")}>
-                  {project.images.slice(0, 4).map((src, imageIndex) => (
-                    <div key={src} className={cn("relative min-h-[170px] overflow-hidden", project.images.length === 1 || imageIndex === 0 ? "col-span-2" : "")}>
-                      <Image src={src} alt={t(project.titles, locale)} fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover transition duration-700 hover:scale-105" />
+            {data.engineeringProjects.map((project) => (
+              <article key={project.slug} className="overflow-hidden rounded-2xl border border-[#e8ebf0] bg-white shadow-card-lg">
+                <div className={cn("border-t-[3px]", categoryTone(project.color).border)} />
+                <div className="space-y-6 p-5 md:p-6">
+                  <ProjectGallery images={project.images} title={t(project.titles, locale)} />
+                  <div className="max-w-[760px]">
+                    <div className={cn("mb-3 text-xs font-bold uppercase tracking-[2px]", categoryTone(project.color).text)}>{t(project.categories, locale)}</div>
+                    <h3 className="font-head text-2xl font-black leading-tight text-navy md:text-[28px]">{t(project.titles, locale)}</h3>
+                    <div className="mt-4 flex items-start gap-2 text-sm leading-6 text-muted">
+                      <MapPin className="mt-1 h-4 w-4 shrink-0" />
+                      <span>{t(project.locations, locale)}</span>
                     </div>
-                  ))}
-                </div>
-                <div className="flex flex-col justify-center p-8 md:p-10">
-                  <div className={cn("mb-3 text-xs font-bold uppercase tracking-[2px]", categoryTone(project.color).text)}>{t(project.categories, locale)}</div>
-                  <h3 className="font-head text-2xl font-black text-navy">{t(project.titles, locale)}</h3>
-                  <div className="mt-4 flex items-center gap-2 text-sm text-muted">
-                    <MapPin className="h-4 w-4" />
-                    {t(project.locations, locale)}
+                    <div className={cn("my-5 h-1 w-16 rounded-full", categoryTone(project.color).bg)} />
+                    <p className="text-sm leading-7 text-muted">{t(project.descriptions, locale)}</p>
+                    <div className="mt-6 text-[11px] font-bold uppercase tracking-[2px] text-[#8a9bb0]">
+                      {project.images.length} {project.images.length === 1 ? "Highlight" : "Highlights"}
+                    </div>
                   </div>
-                  <div className={cn("my-5 h-1 w-16 rounded-full", categoryTone(project.color).bg)} />
-                  <p className="text-sm leading-7 text-muted">{t(project.descriptions, locale)}</p>
                 </div>
               </article>
             ))}
@@ -295,7 +315,7 @@ export default async function EngineeringPage({ params }: { params: Promise<{ lo
         </div>
       </section>
 
-      <section className="bg-white px-6 py-16 md:px-10 md:py-20">
+      <section className="bg-white px-6 py-12 md:px-10 md:py-14">
         <div className="mx-auto max-w-[1200px]">
           <EngHeading eyebrow={isAr ? "يثقون بنا" : "Trusted By"} title={isAr ? "عملاؤنا المميزون" : "Our Clients"} locale={locale}>
             {isAr ? "محفظة متميزة تضم كبرى المؤسسات السعودية وشركات الطاقة العالمية والمقاولين الدوليين." : "A proud portfolio of clients spanning major Saudi institutions, global energy leaders, and international contractors."}
@@ -310,14 +330,14 @@ export default async function EngineeringPage({ params }: { params: Promise<{ lo
         </div>
       </section>
 
-      <section className="bg-[#f8f9fb] px-5 py-12 md:px-10 md:py-16 lg:px-16 lg:py-20">
+      <section className="bg-[#f8f9fb] px-5 py-10 md:px-10 md:py-12 lg:px-16 lg:py-14">
         <div className="mx-auto max-w-[1100px]">
           <EngHeading eyebrow={isAr ? "الحضور العالمي" : "Global Presence"} title={isAr ? "المكاتب وجهات الاتصال" : "Offices & Contacts"} locale={locale} accentTitle />
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
             {offices.map((office, index) => (
               <article key={office.title.en} className="relative overflow-hidden rounded-2xl border border-[#e4e8ef] bg-white px-6 py-8 shadow-card transition hover:-translate-y-1">
                 <div className={cn("absolute inset-x-0 top-0 h-[3px] bg-[linear-gradient(90deg,#1e8a2e,#6dc14a)]", index % 2 === 1 && "bg-[linear-gradient(90deg,#003366,#004d80)]")} />
-                <div className="mb-3 text-[28px]">{office.flag}</div>
+                <Image src={office.flagSrc} alt={`${office.title.en} flag`} width={48} height={32} className="mb-4 h-8 w-12 rounded-[4px] border border-[#dce3ec] object-cover shadow-[0_4px_12px_rgba(0,51,102,.1)]" />
                 <h3 className="mb-2 font-head text-base font-extrabold text-navy">{t(office.title, locale)}</h3>
                 <div className="mb-3 h-px w-6 bg-[#e4e8ef]" />
                 <div className="space-y-1 text-xs leading-[1.8] text-muted">
@@ -329,7 +349,7 @@ export default async function EngineeringPage({ params }: { params: Promise<{ lo
         </div>
       </section>
 
-      <section className="bg-navy px-5 py-12 md:px-10 md:py-16 lg:px-16 lg:py-20">
+      <section className="bg-navy px-5 py-10 md:px-10 md:py-12 lg:px-16 lg:py-14">
         <div className="mx-auto max-w-[1100px]">
           <EngHeading eyebrow={isAr ? "الشبكة" : "Network"} title={isAr ? "الشركاء والمنتسبون" : "Affiliates & Partners"} locale={locale} dark accentTitle />
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
@@ -345,8 +365,8 @@ export default async function EngineeringPage({ params }: { params: Promise<{ lo
         </div>
       </section>
 
-      <section className="bg-[#f8f9fb] px-5 py-12 md:px-10 md:py-16 lg:px-16 lg:py-20">
-        <div className="relative mx-auto max-w-[680px] overflow-hidden rounded-[24px] border border-[#e4e8ef] bg-white px-6 py-9 text-center shadow-[0_16px_52px_rgba(0,51,102,.07)] md:px-12 md:py-[60px]">
+      <section className="bg-[#f8f9fb] px-5 py-10 md:px-10 md:py-12 lg:px-16 lg:py-14">
+        <div className="relative mx-auto max-w-[680px] overflow-hidden rounded-[24px] border border-[#e4e8ef] bg-white px-6 py-8 text-center shadow-[0_16px_52px_rgba(0,51,102,.07)] md:px-12 md:py-10">
           <div className="absolute inset-x-0 top-0 h-1 bg-[linear-gradient(90deg,#1e8a2e,#6dc14a,#003366)]" />
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-green/20 bg-green/10 px-[18px] py-1.5">
             <span className="h-1.5 w-1.5 rounded-full bg-green" />
@@ -388,9 +408,9 @@ function EngHeading({ eyebrow, title, children, locale, dark = false, accentTitl
   const titleParts = title.split(" & ");
 
   return (
-    <div className={cn("mx-auto mb-12 max-w-3xl text-center", locale === "ar" && "font-arabic")}>
+    <div className={cn("mx-auto mb-9 max-w-3xl text-center", locale === "ar" && "font-arabic")}>
       <span className={cn("inline-block rounded-full border px-5 py-1.5 text-[11px] font-bold uppercase tracking-[3px]", dark ? "border-green-light/30 text-green-light" : "border-green/25 text-green")}>{eyebrow}</span>
-      <h2 className={cn("mt-5 font-head text-[26px] font-black leading-[1.3] md:text-4xl", dark ? "text-white" : "text-navy")}>
+      <h2 className={cn("mt-4 font-head text-[26px] font-black leading-[1.3] md:text-4xl", dark ? "text-white" : "text-navy")}>
         {accentTitle && titleParts.length === 2 ? (
           <>
             {titleParts[0]} <span className="text-green">&amp; {titleParts[1]}</span>
@@ -422,6 +442,58 @@ function GreenButton({ href, children, locale, outline = false }: { href: string
   );
 }
 
+function ProjectGallery({ images, title }: { images: string[]; title: string }) {
+  const mainImage = images[images.length - 1];
+  const supportingImages = images.slice(0, -1);
+
+  if (images.length === 1) {
+    return (
+      <div className="relative flex h-[260px] items-center justify-center overflow-hidden rounded-[14px] border border-[#e4e8ef] bg-[#f8f9fb] md:h-[360px]">
+        <Image src={mainImage} alt={title} fill sizes="(max-width: 768px) 100vw, 1100px" className="object-cover object-center" />
+      </div>
+    );
+  }
+
+  if (images.length === 2) {
+    return (
+      <div className="grid grid-cols-1 gap-2.5 md:grid-cols-2">
+        {images.map((src) => (
+          <div key={src} className="relative flex h-[260px] items-center justify-center overflow-hidden rounded-[14px] border border-[#e4e8ef] bg-[#f8f9fb] md:h-[360px]">
+            <Image src={src} alt={title} fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover object-center" />
+          </div>
+        ))}
+      </div>
+    );
+  }
+
+  if (images.length >= 5) {
+    return (
+      <div className={cn("grid grid-cols-1 gap-2.5 sm:grid-cols-2", images.length === 9 ? "lg:grid-cols-3" : "lg:grid-cols-5")}>
+        {images.map((src) => (
+          <div key={src} className="relative flex h-[190px] items-center justify-center overflow-hidden rounded-[14px] border border-[#e4e8ef] bg-[#f8f9fb]">
+            <Image src={src} alt={title} fill sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 20vw" className="object-cover object-center" />
+          </div>
+        ))}
+      </div>
+    );
+  }
+
+  return (
+    <div className="grid grid-cols-1 gap-2.5 lg:grid-cols-[.68fr_1.32fr]">
+      <div className={cn("grid gap-2.5", supportingImages.length === 1 ? "grid-cols-1" : "grid-cols-1 sm:grid-cols-2 lg:grid-cols-1", supportingImages.length > 2 && "lg:grid-cols-2")}>
+        {supportingImages.map((src) => (
+          <div key={src} className="relative flex h-[180px] items-center justify-center overflow-hidden rounded-[14px] border border-[#e4e8ef] bg-[#f8f9fb] lg:h-full lg:min-h-[174px]">
+            <Image src={src} alt={title} fill sizes="(max-width: 768px) 100vw, 360px" className="object-cover object-center" />
+          </div>
+        ))}
+      </div>
+      <div className="relative flex h-[260px] items-center justify-center overflow-hidden rounded-[14px] border border-[#e4e8ef] bg-[#f8f9fb] md:h-[360px]">
+        <Image src={mainImage} alt={title} fill sizes="(max-width: 768px) 100vw, 720px" className="object-cover object-center" />
+      </div>
+    </div>
+  );
+}
+
 function ServiceIcon({ icon: Icon }: { icon: LucideIcon }) {
   return <Icon className="h-[26px] w-[26px]" strokeWidth={1.5} />;
 }
@@ -440,15 +512,15 @@ function ManagementRole({ role }: { role: string }) {
 function categoryTone(color: string) {
   switch (color.toLowerCase()) {
     case "#a78bfa":
-      return { text: "text-cat-architecture", bg: "bg-cat-architecture" };
+      return { text: "text-cat-architecture", bg: "bg-cat-architecture", border: "border-cat-architecture" };
     case "#f9a825":
-      return { text: "text-cat-structural", bg: "bg-cat-structural" };
+      return { text: "text-cat-structural", bg: "bg-cat-structural", border: "border-cat-structural" };
     case "#4fc3f7":
-      return { text: "text-cat-mep", bg: "bg-cat-mep" };
+      return { text: "text-cat-mep", bg: "bg-cat-mep", border: "border-cat-mep" };
     case "#f48fb1":
-      return { text: "text-cat-documentation", bg: "bg-cat-documentation" };
+      return { text: "text-cat-documentation", bg: "bg-cat-documentation", border: "border-cat-documentation" };
     case "#6dc14a":
     default:
-      return { text: "text-cat-urban", bg: "bg-cat-urban" };
+      return { text: "text-cat-urban", bg: "bg-cat-urban", border: "border-cat-urban" };
   }
 }
