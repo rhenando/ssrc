@@ -17,6 +17,6 @@ export function otherLocale(locale: Locale): Locale {
 }
 
 export function localeHref(locale: Locale, path = "/") {
-  const cleanPath = path === "/" ? "" : path.replace(/^\/(en|ar)/, "");
+  const cleanPath = path === "/" ? "" : path.replace(/^\/(en|ar)(?=\/|$)/, "");
   return `/${locale}${cleanPath}`;
 }

@@ -2,6 +2,8 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useTranslations } from "next-intl";
 import { Mail, Menu, Phone, X } from "lucide-react";
 import { useState } from "react";
 import { contactChannels, navItems } from "@/data/site";
@@ -11,7 +13,10 @@ import { cn, t } from "@/lib/utils";
 
 export function LayoutShell({ locale, children }: { locale: Locale; children: React.ReactNode }) {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+  const translate = useTranslations("layout");
   const isAr = locale === "ar";
+  const switchLocaleHref = (nextLocale: Locale) => localeHref(nextLocale, pathname);
 
   return (
     <div dir={isAr ? "rtl" : "ltr"} className={cn("min-h-screen bg-white text-text", isAr ? "font-arabic" : "font-body")}>
@@ -23,11 +28,7 @@ export function LayoutShell({ locale, children }: { locale: Locale; children: Re
 
           <nav className="hidden items-center gap-0.5 md:flex">
             {navItems.map((item) => (
-              <Link
-                key={item.href}
-                href={localeHref(locale, item.href)}
-                className="whitespace-nowrap rounded-md px-3 py-2 text-[.9rem] font-medium text-white/80 transition hover:bg-teal/10 hover:text-teal"
-              >
+              <Link key={item.href} href={localeHref(locale, item.href)} className="whitespace-nowrap rounded-md px-3 py-2 text-[.9rem] font-medium text-white/80 transition hover:bg-teal/10 hover:text-teal">
                 {t(item.labels, locale)}
               </Link>
             ))}
@@ -40,15 +41,15 @@ export function LayoutShell({ locale, children }: { locale: Locale; children: Re
               isAr ? "mr-5" : "ml-5"
             )}
           >
-            {isAr ? "تواصل معنا" : "Get in Touch"}
+            {translate("contact")}
           </Link>
 
           <div className={cn("flex items-center gap-1 border-white/20 px-3 text-xs", isAr ? "mr-3 border-r" : "ml-3 border-l")}>
-            <Link className={cn(locale === "en" ? "font-bold text-white" : "font-semibold text-white/45")} href={localeHref("en", "")}>
+            <Link className={cn(locale === "en" ? "font-bold text-white" : "font-semibold text-white/45")} href={switchLocaleHref("en")}>
               EN
             </Link>
             <span className="text-white/20">|</span>
-            <Link className={cn(locale === "ar" ? "font-bold text-white" : "font-semibold text-white/45")} href={localeHref("ar", "")}>
+            <Link className={cn(locale === "ar" ? "font-bold text-white" : "font-semibold text-white/45")} href={switchLocaleHref("ar")}>
               AR
             </Link>
           </div>
@@ -61,7 +62,7 @@ export function LayoutShell({ locale, children }: { locale: Locale; children: Re
               isAr ? "mr-2" : "ml-2"
             )}
             aria-expanded={open}
-            aria-label={open ? "Close menu" : "Open menu"}
+            aria-label={open ? translate("closeMenu") : translate("openMenu")}
           >
             {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </button>
@@ -70,12 +71,7 @@ export function LayoutShell({ locale, children }: { locale: Locale; children: Re
         {open && (
           <div className="flex flex-col border-t border-white/10 px-5 pb-3 md:hidden">
             {navItems.map((item) => (
-              <Link
-                key={item.href}
-                onClick={() => setOpen(false)}
-                href={localeHref(locale, item.href)}
-                className="border-b border-white/5 px-2 py-3 text-base font-medium text-white/80 last:border-0 hover:text-teal"
-              >
+              <Link key={item.href} onClick={() => setOpen(false)} href={localeHref(locale, item.href)} className="border-b border-white/5 px-2 py-3 text-base font-medium text-white/80 last:border-0 hover:text-teal">
                 {t(item.labels, locale)}
               </Link>
             ))}
@@ -87,11 +83,11 @@ export function LayoutShell({ locale, children }: { locale: Locale; children: Re
 
       <footer className="border-t-[3px] border-teal bg-navy-dark">
         <div className="mx-auto grid max-w-[1200px] grid-cols-1 gap-8 px-6 py-12 sm:grid-cols-2 lg:grid-cols-4">
-          <FooterColumn title={isAr ? "عن الشركة" : "About Us"} links={[["/about", isAr ? "رسالتنا" : "Our Mission"], ["/about", isAr ? "فريقنا" : "Our Team"], ["/careers", isAr ? "الوظائف" : "Careers"]]} locale={locale} />
-          <FooterColumn title={isAr ? "روابط سريعة" : "Quick Links"} links={navItems.slice(0, 5).map((item) => [item.href, t(item.labels, locale)])} locale={locale} />
-          <FooterColumn title={isAr ? "خدماتنا" : "Our Services"} links={[["/services", isAr ? "أبحاث السوق" : "Market Research"], ["/services", isAr ? "تحليل البيانات" : "Data Analytics"], ["/services", isAr ? "دراسات السياسات" : "Policy Studies"]]} locale={locale} />
+          <FooterColumn title={translate("about")} links={[["/about", translate("mission")], ["/about", translate("team")], ["/careers", translate("careers")]]} locale={locale} />
+          <FooterColumn title={translate("quickLinks")} links={navItems.slice(0, 5).map((item) => [item.href, t(item.labels, locale)])} locale={locale} />
+          <FooterColumn title={translate("services")} links={[["/services", translate("marketResearch")], ["/services", translate("dataAnalytics")], ["/services", translate("policyStudies")]]} locale={locale} />
           <div>
-            <span className="mb-4 block w-fit border-b-2 border-teal pb-2.5 text-[.78rem] font-bold text-white">{isAr ? "تواصل معنا" : "Contact Us"}</span>
+            <span className="mb-4 block w-fit border-b-2 border-teal pb-2.5 text-[.78rem] font-bold text-white">{translate("contactUs")}</span>
             <div className="space-y-3">
               {contactChannels.map((channel) => (
                 <a key={channel.value} href={channel.href} className="flex items-start gap-2.5 text-sm text-white/55 transition hover:text-teal">
@@ -112,7 +108,7 @@ export function LayoutShell({ locale, children }: { locale: Locale; children: Re
               </a>
             ))}
           </div>
-          <p className="text-[.8rem] text-white/35">© {new Date().getFullYear()} SSRC. {isAr ? "جميع الحقوق محفوظة." : "All rights reserved."}</p>
+          <p className="text-[.8rem] text-white/35">© {new Date().getFullYear()} SSRC. {translate("rights")}</p>
         </div>
       </footer>
     </div>

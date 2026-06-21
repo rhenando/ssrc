@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { Cairo, DM_Sans, Playfair_Display } from "next/font/google";
 import "./globals.css";
 
-const dmSans = DM_Sans({ subsets: ["latin"], variable: "--font-body" });
-const playfair = Playfair_Display({ subsets: ["latin"], weight: ["700", "800", "900"], variable: "--font-head" });
-const cairo = Cairo({ subsets: ["arabic", "latin"], variable: "--font-arabic" });
+const dmSans = DM_Sans({ subsets: ["latin"], weight: ["400", "500", "600", "700"], variable: "--font-body" });
+const playfair = Playfair_Display({ subsets: ["latin"], weight: ["700", "800"], variable: "--font-head" });
+const cairo = Cairo({ subsets: ["arabic", "latin"], weight: ["400", "600", "700", "800"], variable: "--font-arabic" });
 
 export const metadata: Metadata = {
   title: "SSRC",

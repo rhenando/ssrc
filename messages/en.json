@@ -1,0 +1,464 @@
+{
+  "layout": {
+    "contact": "Get in Touch",
+    "about": "About Us",
+    "mission": "Our Mission",
+    "team": "Our Team",
+    "careers": "Careers",
+    "quickLinks": "Quick Links",
+    "services": "Our Services",
+    "marketResearch": "Market Research",
+    "dataAnalytics": "Data Analytics",
+    "policyStudies": "Policy Studies",
+    "contactUs": "Contact Us",
+    "rights": "All rights reserved.",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Research, data, and strategic consulting",
+      "title": "Evidence-based insight for better decisions.",
+      "body": "SSRC helps institutions, partners, and decision-makers turn complex social, market, and policy questions into clear research, actionable analysis, and practical recommendations.",
+      "primary": "Start a Conversation",
+      "secondary": "Explore Services",
+      "imageAlt": "Modern office tower in Riyadh, Saudi Arabia",
+      "imageCaption": "Regional insight, institutional research, and strategy support for complex decisions.",
+      "insightLabel": "Applied Insight",
+      "insightValue": "Research to Action"
+    },
+    "stats": {
+      "studies": "Studies",
+      "countries": "Countries",
+      "years": "Years"
+    },
+    "about": {
+      "eyebrow": "About SSRC",
+      "title": "A research partner built for complex contexts",
+      "body": "Strategic Solutions for Research and Consulting is a research and advisory firm focused on credible evidence, practical insight, and disciplined consulting support. Our work helps organizations understand communities, markets, institutions, and policy environments with clarity.",
+      "points": {
+        "evidence": "Evidence-led research methods designed for reliable decisions.",
+        "regional": "Regional understanding supported by field experience and multilingual teams.",
+        "decision": "Clear outputs that connect research findings to practical action."
+      },
+      "link": "Learn more about SSRC"
+    },
+    "proof": {
+      "experience": {
+        "title": "10+ Years Experience",
+        "body": "A team with deep experience across research, consulting, civil society, and program delivery."
+      },
+      "studies": {
+        "title": "150+ Studies",
+        "body": "Research outputs, assessments, reports, and applied studies developed for diverse partners."
+      },
+      "clients": {
+        "title": "25+ Countries",
+        "body": "Work shaped by regional context, international partners, and cross-border collaboration."
+      }
+    },
+    "purpose": {
+      "eyebrow": "Our Purpose",
+      "title": "Mission & Vision",
+      "mission": {
+        "eyebrow": "Mission",
+        "title": "Driving meaningful change",
+        "body": "To generate credible, data-driven insights that empower decision-makers, strengthen governance, and foster sustainable development within Syria and the wider region."
+      },
+      "vision": {
+        "eyebrow": "Vision",
+        "title": "A leading regional research hub",
+        "body": "To be Syria's leading center for research excellence, innovation, and strategic consulting, shaping a more informed and resilient future."
+      }
+    },
+    "values": {
+      "eyebrow": "What Guides Us",
+      "title": "Core values behind every engagement",
+      "items": {
+        "integrity": {
+          "title": "Integrity",
+          "body": "Ethical standards, transparency, impartiality, and trustworthiness."
+        },
+        "excellence": {
+          "title": "Excellence",
+          "body": "High-quality, evidence-based work aligned with professional standards."
+        },
+        "innovation": {
+          "title": "Innovation",
+          "body": "Creative methods and forward thinking for changing environments."
+        },
+        "collaboration": {
+          "title": "Collaboration",
+          "body": "Close work with clients and stakeholders to co-create practical solutions."
+        }
+      }
+    },
+    "capabilities": {
+      "eyebrow": "What We Do",
+      "title": "Services designed for decision-makers",
+      "link": "Explore service",
+      "market": {
+        "title": "Market Research",
+        "body": "Deep market insights and analysis of evolving dynamics, consumer behavior, and growth opportunities."
+      },
+      "analytics": {
+        "title": "Data Analytics",
+        "body": "Analytical frameworks and trend identification that extract actionable insight from complex datasets."
+      },
+      "policy": {
+        "title": "Policy Studies",
+        "body": "Policy analysis, regulatory landscape mapping, and research reports for complex policy environments."
+      }
+    },
+    "cta": {
+      "title": "Partner with us for evidence-based solutions.",
+      "button": "Get in Touch"
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "eyebrow": "About SSRC",
+      "title": "Strategic Solutions for Research and Consulting",
+      "body": "A Damascus-based firm dedicated to unlocking knowledge, data, and insights that drive progress and informed decision-making.",
+      "primary": "Start a Conversation",
+      "secondary": "Explore Services",
+      "imageAlt": "Professional consultants reviewing technical planning documents",
+      "imageCaption": "Research, technical consulting, and evidence-based insight for complex institutional decisions."
+    },
+    "stats": {
+      "studies": "Studies and applied research outputs",
+      "countries": "Countries and regional contexts",
+      "years": "Years of consulting experience"
+    },
+    "story": {
+      "eyebrow": "Who We Are",
+      "title": "A Damascus-based research and consulting firm",
+      "body": "Strategic Solutions for Research and Consulting (SSRC) is a Damascus-based research and consulting firm dedicated to unlocking knowledge, data, and insights that drive progress and informed decision-making. With extensive experience in public opinion research and analysis, SSRC rigorously measures, analyzes, and interprets social, political, and consumer trends across Syria - with nationwide access from Abukamal to Tartus and Aleppo to As-Suwayda. SSRC's work spans a wide range of sectors vital to national recovery and sustainable growth, including business management, education, tourism, governance, social affairs, and community development.",
+      "points": {
+        "credible": "Extensive experience in public opinion research and analysis.",
+        "practical": "Research outputs designed to drive progress and informed decision-making.",
+        "regional": "Nationwide access across Syria, from Abukamal to Tartus and Aleppo to As-Suwayda."
+      }
+    },
+    "approach": {
+      "access": {
+        "title": "Nationwide Access",
+        "body": "Field reach across Syria supports grounded research and reliable data collection."
+      },
+      "trends": {
+        "title": "Trend Analysis",
+        "body": "Rigorous measurement and interpretation of social, political, and consumer trends."
+      },
+      "sectors": {
+        "title": "Recovery Sectors",
+        "body": "Work spanning business management, education, tourism, governance, social affairs, and community development."
+      }
+    },
+    "method": {
+      "research": {
+        "title": "Research & Data Collection",
+        "body": "Field and remote surveys, focus groups, and in-depth interviews using advanced data science methodologies."
+      },
+      "consulting": {
+        "title": "Consulting Services",
+        "body": "Evidence-based guidance for policy formulation, organizational development, and strategic decision-making."
+      },
+      "market": {
+        "title": "Public Opinion & Market Studies",
+        "body": "Measuring and analyzing social, political, and consumer trends to support informed strategies."
+      },
+      "training": {
+        "title": "Capacity Building & Training",
+        "body": "Tailored training programs for researchers, analysts, and field teams to enhance professional standards."
+      }
+    },
+    "purpose": {
+      "eyebrow": "Our Purpose",
+      "title": "Mission & Vision",
+      "mission": {
+        "eyebrow": "Mission",
+        "title": "Driving meaningful change",
+        "body": "To generate credible, data-driven insights that empower decision-makers, strengthen governance, and foster sustainable development within Syria and the wider region. SSRC is committed to applying rigorous research methods and international best practices."
+      },
+      "vision": {
+        "eyebrow": "Vision",
+        "title": "A leading regional research hub",
+        "body": "To be Syria's leading center for research excellence, innovation, and strategic consulting - a trusted partner in rebuilding the nation, unlocking opportunity, and shaping a more informed, resilient, and prosperous future for all Syrians."
+      }
+    },
+    "values": {
+      "eyebrow": "What Guides Us",
+      "title": "Principles behind every engagement",
+      "items": {
+        "integrity": {
+          "title": "Integrity",
+          "body": "We uphold the highest ethical standards in every aspect of our work, ensuring transparency, impartiality, and trustworthiness across all outputs."
+        },
+        "excellence": {
+          "title": "Excellence",
+          "body": "We deliver high-quality, evidence-based results that meet international standards and consistently exceed client expectations."
+        },
+        "innovation": {
+          "title": "Innovation",
+          "body": "We embrace creativity and forward thinking, constantly evolving our methodologies to stay at the forefront of research and consulting."
+        },
+        "collaboration": {
+          "title": "Collaboration",
+          "body": "We believe meaningful impact is achieved through partnership, working closely with clients, communities, and all stakeholders."
+        },
+        "accountability": {
+          "title": "Accountability",
+          "body": "We take responsibility for the accuracy, reliability, and impact of our work, maintaining professionalism in every project."
+        },
+        "empowerment": {
+          "title": "Empowerment",
+          "body": "We build capacity, share knowledge, and enable others to make informed, data-driven decisions that contribute to positive change."
+        }
+      }
+    },
+    "capabilities": {
+      "eyebrow": "What We Do",
+      "title": "Research and consulting capabilities"
+    },
+    "team": {
+      "eyebrow": "Our Team",
+      "title": "The minds behind the vision",
+      "body": "A multidisciplinary team with backgrounds in research, development, operations, fieldwork, education, and consulting.",
+      "mix": "A multidisciplinary team combining <strong>Field Research</strong>, <strong>Policy Expertise</strong>, <strong>Data Science</strong>, and <strong>Operational Leadership</strong>"
+    },
+    "cta": {
+      "title": "Let us help turn your research questions into useful decisions.",
+      "button": "Get in Touch"
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "eyebrow": "SSRC Services",
+      "title": "Research and consulting services for informed decisions.",
+      "body": "SSRC supports institutions, organizations, and partners with credible research, field data, market and public opinion analysis, consulting guidance, and capacity building tailored to Syria and the wider region.",
+      "primary": "Discuss a Project",
+      "secondary": "About SSRC"
+    },
+    "services": {
+      "research": {
+        "title": "Research & Data Collection",
+        "body": "Field and remote surveys, focus groups, in-depth interviews, and structured data collection using rigorous research design and advanced data science methodologies."
+      },
+      "market": {
+        "title": "Public Opinion & Market Studies",
+        "body": "Measurement and analysis of social, political, and consumer trends to help clients understand communities, audiences, markets, and changing public priorities."
+      },
+      "consulting": {
+        "title": "Consulting Services",
+        "body": "Evidence-based guidance for policy formulation, organizational development, strategic planning, program design, and decision-making in complex environments."
+      },
+      "training": {
+        "title": "Capacity Building & Training",
+        "body": "Tailored training programs for researchers, analysts, field teams, and organizations seeking stronger research standards and operational capability."
+      }
+    },
+    "methods": {
+      "eyebrow": "How We Work",
+      "title": "Methods designed for reliable evidence",
+      "body": "Each engagement is shaped around the decision the client needs to make, then supported by appropriate tools, field practice, analysis, and reporting.",
+      "items": {
+        "surveys": {
+          "title": "Surveys",
+          "body": "Questionnaire design, sampling support, field deployment, and remote data collection."
+        },
+        "focus": {
+          "title": "Focus Groups & Interviews",
+          "body": "Qualitative conversations that capture context, lived experience, and stakeholder insight."
+        },
+        "analytics": {
+          "title": "Data Analysis",
+          "body": "Trend identification, segmentation, interpretation, and synthesis of complex datasets."
+        },
+        "reports": {
+          "title": "Reports & Recommendations",
+          "body": "Clear outputs that connect evidence to practical decisions and implementation priorities."
+        }
+      }
+    },
+    "sectors": {
+      "eyebrow": "Sector Reach",
+      "title": "Supporting recovery, growth, and institutional clarity",
+      "body": "SSRC's work spans sectors vital to national recovery and sustainable growth, with research outputs shaped for practical use.",
+      "items": {
+        "business": "Business management and organizational development",
+        "education": "Education and learning systems",
+        "tourism": "Tourism and local economic opportunity",
+        "governance": "Governance, policy, and institutional reform",
+        "social": "Social affairs and public priorities",
+        "community": "Community development and civil society engagement"
+      }
+    },
+    "process": {
+      "eyebrow": "Engagement Model",
+      "title": "From research questions to actionable recommendations",
+      "items": {
+        "define": {
+          "title": "Define",
+          "body": "Clarify objectives, decision needs, audiences, risks, and the evidence required."
+        },
+        "collect": {
+          "title": "Collect",
+          "body": "Apply the right field, remote, qualitative, or quantitative research tools."
+        },
+        "analyze": {
+          "title": "Analyze",
+          "body": "Interpret findings through context, data quality, and client priorities."
+        },
+        "deliver": {
+          "title": "Deliver",
+          "body": "Produce concise reports, recommendations, and advisory outputs ready for action."
+        }
+      }
+    },
+    "cta": {
+      "title": "Need evidence for a policy, market, program, or institutional decision?",
+      "body": "Tell us what you need to understand. SSRC can help shape the research approach, collect the right evidence, and turn findings into practical direction.",
+      "button": "Get in Touch"
+    }
+  },
+  "engineering": {
+    "hero": {
+      "eyebrow": "Engineering Division",
+      "established": "Established 2012 - Al Madinah, KSA",
+      "titleLine1": "Modern Technologies",
+      "titleLine2": "Engineering and Contracting",
+      "tagline": "We add value, one project at a time.",
+      "body": "Our exceptional quality of work is the norm - delivering innovative, reliable, and client-focused engineering consultancy solutions across the Middle East and beyond.",
+      "exploreServices": "Explore Services",
+      "viewProjects": "View Projects"
+    },
+    "stats": {
+      "established": {
+        "label": "Established",
+        "body": "Delivering innovative, reliable, and client-focused engineering solutions since 2012."
+      },
+      "projects": {
+        "label": "Projects Delivered",
+        "body": "A portfolio of more than 150 successfully delivered projects with proven expertise, consistent performance, and a results-driven approach."
+      },
+      "staff": {
+        "label": "Staff & Experts",
+        "body": "Over 65 skilled staff and experts with in-depth knowledge of Saudi building codes and authorities' requirements."
+      },
+      "business": {
+        "value": "Integrity & Repeated",
+        "label": "Business",
+        "body": "Many clients return for more services because integrity, high-quality work, and on-time delivery define how we do business."
+      }
+    },
+    "services": {
+      "eyebrow": "What We Do",
+      "title": "Engineering & Consultancy Services",
+      "body": "Delivering technical excellence across five core service areas - from initial design through construction support, environmental management, and logistics.",
+      "overview": {
+        "engineering": {
+          "title": "Engineering & Consultancy",
+          "body": "Focused technical guidance, innovative solutions, and precise support from planning through execution."
+        },
+        "design": {
+          "title": "Design Management",
+          "body": "Disciplined design oversight ensuring efficiency, compliance, and consistently high-quality outcomes."
+        },
+        "construction": {
+          "title": "Construction Support",
+          "body": "Effective planning, coordination, and on-site oversight to deliver reliable, on-time results."
+        },
+        "environment": {
+          "title": "Environment Services",
+          "body": "Sustainable development, environmental assessments, and community-focused strategies."
+        },
+        "transport": {
+          "title": "Transport & Logistics",
+          "body": "Optimizing mobility, material flow, and operational planning for safe, cost-effective project delivery."
+        }
+      },
+      "groups": {
+        "design": {
+          "title": "Design Services",
+          "items": {
+            "hydraulic": "Hydraulic Design & Modeling",
+            "stress": "Pipe Stress Analysis",
+            "flow": "Pipe Flow Design",
+            "structural": "Structural Design & Modeling",
+            "fire": "Fire Protection Design (NFPA)",
+            "telecom": "Telecom Design",
+            "oilGas": "Oil & Gas Engineering",
+            "instrument": "Instrument / Low Current Systems",
+            "bim": "BIM Modeling Capabilities",
+            "traffic": "Traffic Studies",
+            "master": "Master Planning"
+          }
+        },
+        "construction": {
+          "title": "Construction Services",
+          "items": {
+            "shop": "Shop Drawings",
+            "support": "Construction Support",
+            "asBuilt": "As-Built Preparation",
+            "procedures": "Preparation of Procedures & Methodologies",
+            "fabrication": "Fabrication Drawings",
+            "quantity": "Quantity Surveying",
+            "claims": "Claims Support & Management",
+            "survey": "Field Topographic Survey"
+          }
+        },
+        "speciality": {
+          "title": "Speciality Services",
+          "items": {
+            "verification": "Design Verifications",
+            "value": "Alternative Value Engineered Designs",
+            "logistics": "Logistics, Lifting & Erection Studies",
+            "specialists": "Crude Oil / Gas and NGL Specialists",
+            "completion": "Design Completion",
+            "clashes": "BIM Clashes Detection",
+            "assessment": "Site Conditions Assessments"
+          }
+        }
+      }
+    },
+    "management": {
+      "eyebrow": "Leadership",
+      "title": "Key Management",
+      "body": "Senior technical leaders with deep experience across infrastructure, oil and gas, architecture, BIM, MEP, and multidisciplinary project delivery."
+    },
+    "portfolio": {
+      "eyebrow": "Portfolio",
+      "title": "Projects Experience",
+      "highlight": "Highlight",
+      "highlights": "Highlights"
+    },
+    "clients": {
+      "eyebrow": "Trusted By",
+      "title": "Our Clients",
+      "body": "A proud portfolio of clients spanning major Saudi institutions, global energy leaders, and international contractors."
+    },
+    "offices": {
+      "eyebrow": "Global Presence",
+      "title": "Offices & Contacts",
+      "saudi": "Kingdom of Saudi Arabia",
+      "syria": "Syrian Arab Republic",
+      "egypt": "Egypt",
+      "turkiye": "Turkiye"
+    },
+    "network": {
+      "eyebrow": "Network",
+      "title": "Affiliates & Partners",
+      "mes": "Syria representative and key affiliate providing engineering solutions across the region.",
+      "aes": "Strategic partner delivering advanced engineering capabilities for complex projects.",
+      "ncs": "Bahrain-based partner providing specialized construction and engineering services.",
+      "akoya": "Egypt affiliate supporting engineering and consultancy operations across North Africa."
+    },
+    "cta": {
+      "eyebrow": "Engineering Partner",
+      "title": "Ready to Partner with Modern Technologies Engineering and Contracting?",
+      "body": "Get in touch with SSRC to learn how we can connect you with Modern Technologies Engineering and Contracting's expertise - from design management to speciality Oil & Gas services.",
+      "contact": "Contact SSRC",
+      "services": "Our Services"
+    }
+  }
+}
